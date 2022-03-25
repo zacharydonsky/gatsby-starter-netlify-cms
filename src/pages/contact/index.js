@@ -1,7 +1,7 @@
 import * as React from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
-
+import { Checkbox, CheckboxGroup } from '@chakra-ui/react'
 function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
@@ -99,6 +99,14 @@ export default class Index extends React.Component {
                       required={true}
                     />
                   </div>
+                </div>
+                <div className="field">
+                  <input
+                    type="checkbox"
+                    id={("newsletter")}
+                    name="newsletter"
+                    onChange={this.handleChange}
+                  />
                 </div>
                 <div className="field">
                   <button className="button is-link" type="submit">
