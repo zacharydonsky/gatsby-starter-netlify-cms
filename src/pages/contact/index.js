@@ -100,13 +100,16 @@ export default class Index extends React.Component {
                     />
                   </div>
                 </div>
-                <div className="field">
-                  <input
-                    type="checkbox"
-                    id={("newsletter")}
-                    name="newsletter"
-                    onChange={this.handleChange}
-                  />
+                <div className="field" >
+                    <label className="label" htmlFor={"newsletter"}>
+                        I consent to be contacted via newsletter as well  --> 
+                      <input
+                        type="checkbox"
+                        id={"newsletter"}
+                        name="newsletter"
+                        onChange={this.handleChange}
+                      />
+                    </label>
                 </div>
                 <div className="field">
                   <button className="button is-link" type="submit">
