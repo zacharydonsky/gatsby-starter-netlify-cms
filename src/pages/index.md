@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: HATS is a practical response to gaps in the housing crisis.
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
+heading: HATS is a practical response to gaps in the housing crisis.
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Kaldi
