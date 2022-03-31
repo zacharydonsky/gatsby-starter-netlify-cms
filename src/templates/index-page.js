@@ -26,6 +26,9 @@ export const IndexPageTemplate = ({
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
+            <Features gridItems={intro.blurbs} />
+          </div>
+          <div className="section">
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
