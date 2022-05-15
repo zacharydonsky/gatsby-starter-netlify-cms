@@ -1,12 +1,12 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link, graphql } from 'gatsby';
+import { getImage } from 'gatsby-plugin-image';
 
-import Layout from "../components/Layout";
-import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
-import FullWidthImage from "../components/FullWidthImage";
+import Layout from '../components/Layout';
+import Features from '../components/Features';
+import BlogRoll from '../components/BlogRoll';
+import FullWidthImage from '../components/FullWidthImage';
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -23,11 +23,27 @@ export const IndexPageTemplate = ({
   return (
     <div>
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
-      <section className="section section--gradient">
+      <section className="section">
         <div className="container">
-          <div className="section">
-            <Features gridItems={intro.blurbs} />
+          <div className="columns">
+            <div className="column is-one-third">
+              <div className="box">
+                <div className="title">Some stuff!</div>
+              </div>
+            </div>
+            <div className="column is-one-third">
+              <div className="box">
+                <div className="title">Some stuff!</div>
+              </div>
+            </div>
+            <div className="column is-one-third">
+              <div className="box">
+                <div className="title">Some stuff!</div>
+              </div>
+            </div>
           </div>
+        </div>
+        <div className="container">
           <div className="section">
             <div className="columns">
               <div className="column is-10 is-offset-1">
