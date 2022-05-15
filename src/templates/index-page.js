@@ -10,7 +10,8 @@ import FullWidthImage from '../components/FullWidthImage';
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
-  image,
+  heroimage,
+  pitchimage,
   title,
   heading,
   subheading,
@@ -18,28 +19,21 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => {
-  const heroImage = getImage(image) || image;
+  const heroImage = getImage(heroimage) || heroimage;
+  const pitchImage = getImage(pitchimage) || pitchimage;
 
   return (
     <div>
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
       <section className="section">
         <div className="container">
-          <div className="columns">
-            <div className="column is-one-third">
-              <div className="box">
-                <div className="title">Some stuff!</div>
-              </div>
+          <div className="box columns is-mobile ">
+            <div className="column is-half">
+              <img src={pitchImage} alt={''} />
             </div>
-            <div className="column is-one-third">
-              <div className="box">
-                <div className="title">Some stuff!</div>
-              </div>
-            </div>
-            <div className="column is-one-third">
-              <div className="box">
-                <div className="title">Some stuff!</div>
-              </div>
+            <div className="column is-half">
+              <div className="title">{mainpitch.title}</div>
+              <div>{mainpitch.description}</div>
             </div>
           </div>
         </div>
@@ -138,9 +132,14 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
-        image {
+        heroimage {
           childImageSharp {
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+          }
+        }
+        pitchimage {
+          childImageSharp {
+            gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
           }
         }
         heading

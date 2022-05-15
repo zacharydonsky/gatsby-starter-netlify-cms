@@ -1,7 +1,8 @@
 ---
 templateKey: index-page
 title: HATS
-image: /img/row-of-tiny-houses.jpeg
+heroimage: /img/row-of-tiny-houses.jpeg
+pitchimage: /img/cabin-photo-Jeff-Willmer.jpeg
 heading: We are community members who want to do something about this desperate
   emergency.
 subheading: Hamilton Alliance for Tiny Shelters
