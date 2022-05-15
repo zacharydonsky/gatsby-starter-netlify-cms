@@ -10,8 +10,8 @@ import FullWidthImage from '../components/FullWidthImage';
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
-  heroimage,
-  pitchimage,
+  image,
+  // pitchimage,
   title,
   heading,
   subheading,
@@ -19,8 +19,8 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => {
-  const heroImage = getImage(heroimage) || heroimage;
-  const pitchImage = getImage(pitchimage) || pitchimage;
+  const heroImage = getImage(image) || image;
+  // const pitchImage = getImage(pitchimage) || pitchimage;
 
   return (
     <div>
@@ -29,7 +29,7 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="box columns is-mobile ">
             <div className="column is-half">
-              <img src={pitchImage} alt={''} />
+              {/* <img src={pitchImage} alt={''} /> */}
             </div>
             <div className="column is-half">
               <div className="title">{mainpitch.title}</div>
@@ -132,14 +132,9 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
-        heroimage {
+        image {
           childImageSharp {
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
-        pitchimage {
-          childImageSharp {
-            gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
           }
         }
         heading
