@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { Center } from '@chakra-ui/react';
+import { Link } from 'gatsby';
+import logo from '../../static/img/logo.svg';
 
 export default function FullWidthImage(props) {
   const {
@@ -68,27 +70,42 @@ export default function FullWidthImage(props) {
             }}
           >
             {/* Any content here will be centered in the component */}
-            {title && (
-              <h1 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen full-width-image-title">
-                {title}
-              </h1>
-            )}
-            {subheading && (
-              <h3
-                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+            {/* An addition columns is used to restrict the size of the title card */}
+            <div className="columns">
+              <div
+                className="box column full-width-image-box is-three-fifths is-offset-one-fifth"
                 style={{
-                  boxShadow:
-                    '$primary 0.5rem 0px 0px, rgb(255, 68, 0, 0.5) -0.5rem 0px 0px',
-                  backgroundColor: 'rgb(255, 68, 0, 0.5)',
-                  color: 'white',
-                  lineHeight: '1',
-                  padding: '0.25rem',
-                  marginTop: '0.5rem',
+                  padding: '5%',
+                  borderRadius: '25px',
                 }}
               >
-                {subheading}
-              </h3>
-            )}
+                <div className="columns level">
+                  <div className="column level-item is-one-third">
+                    <div className="full-width-image-logo-container">
+                      <img
+                        src={logo}
+                        alt="HATS LOGO"
+                        className=".full-width-image-logo"
+                      />
+                    </div>
+                  </div>
+                  <div className="column level-item is-two-thirds full-width-image-headings">
+                    <div className="has-text-centered">
+                      {title && (
+                        <h1 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen full-width-image-title">
+                          {title}
+                        </h1>
+                      )}
+                      {subheading && (
+                        <h3 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen has-text-centered full-width-image-subheading">
+                          {subheading}
+                        </h3>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         )}
       </div>

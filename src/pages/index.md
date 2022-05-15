@@ -4,7 +4,7 @@ title: HATS
 image: /img/row-of-tiny-houses.jpeg
 heading: We are community members who want to do something about this desperate
   emergency.
-subheading: A practical response to gaps in the housing crisis.
+subheading: Hamilton Alliance for Tiny Shelters
 mainpitch:
   title: HATS is a practical response to gaps in the housing crisis.
   description: 'We’re tackling homelessness in practical ways by setting up warm

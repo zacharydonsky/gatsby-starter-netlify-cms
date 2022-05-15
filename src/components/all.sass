@@ -52,12 +52,6 @@ $black: #2b2523
     display: flex
     justify-content: center
     align-items: center
-.full-width-image-title
-    color: $primary-invert
-    box-shadow: $primary-transparent 0.5rem 0px 0px $primary-transparent -0.5rem 0px 0px
-    background-color: $primary-transparent
-    line-height: 1
-    padding: 0.25em
 
 .btn
     display: inline-block
@@ -100,7 +94,7 @@ $menu-item-active-color: $hats-blue
 $menu-item-active-background-color:	$hats-blue-invert
 $menu-list-border-left: 1px solid $hats-blue-invert
 $menu-label-color: $white-ter
-
+// $box-background-color: $primary-invert
 
 .menu-label
   font-size: 1em !important
@@ -130,8 +124,15 @@ $menu-label-color: $white-ter
   flex-basis: 35%
   margin: 0 1.5em 0 0
 
-
 @import "~bulma"
+
+.full-width-image-title
+    color: $black
+    // background-color: $primary-transparent
+    line-height: 1
+    padding: 0.25em
+.full-width-image-subheading
+  padding: 0.5em
 
 
 // responsiveness
@@ -146,3 +147,14 @@ $menu-label-color: $white-ter
     text-align: center
     max-width: 70%
     margin: 0 0 1em
+  .full-width-image-logo-container
+    background-color: #FFFFFFD9
+    // max-width: 70%
+    padding: 15%
+    border-radius: 50%
+  .full-width-image-logo
+    // max-width: 70px
+  .full-width-image-box
+    background-color: #FFFFFF00
+  .full-width-image-headings
+    display: none
