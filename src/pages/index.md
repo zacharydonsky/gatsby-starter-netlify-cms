@@ -6,6 +6,7 @@ heading: We are community members who want to do something about this desperate
   emergency.
 subheading: Hamilton Alliance for Tiny Shelters
 mainpitch:
+  image: /img/cabin-photo-Jeff-Wilmer.jpeg
   title: HATS is a practical response to gaps in the housing crisis.
   description: 'We’re tackling homelessness in practical ways by setting up warm
     and safe tiny cabins for those living unhoused in our community. '
