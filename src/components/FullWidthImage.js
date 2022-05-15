@@ -71,9 +71,10 @@ export default function FullWidthImage(props) {
           >
             {/* Any content here will be centered in the component */}
             {/* An addition columns is used to restrict the size of the title card */}
-            <div className="columns">
+            <div className="columns is-mobile">
+              <div className="column"></div>
               <div
-                className="box column full-width-image-box is-three-fifths is-offset-one-fifth"
+                className="box full-width-image-box column is-full"
                 style={{
                   padding: '5%',
                   borderRadius: '25px',
@@ -105,6 +106,7 @@ export default function FullWidthImage(props) {
                   </div>
                 </div>
               </div>
+              <div className="column"></div>
             </div>
           </div>
         )}
