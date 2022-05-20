@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import { getImage } from 'gatsby-plugin-image';
 
 import Layout from '../components/Layout';
@@ -25,17 +26,24 @@ export const IndexPageTemplate = ({
     <div>
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
       <section className="section">
-        <div className="container">
-          <div className="box columns is-mobile ">
-            <div className="column is-half">
-              <img src={pitchImage} alt={''} />
-            </div>
-            <div className="column is-half">
-              <div className="title">{mainpitch.title}</div>
-              <div>{mainpitch.description}</div>
+        <div className="tile is-ancestor is-desktop">
+          <div className="tile is-parent"></div>
+          <div className="tile is-parent is-6 is-desktop">
+            <div className="tile is-child box">
+              <div className="columns level">
+                <div className="column level-item">
+                  <GatsbyImage image={pitchImage} alt={''} />
+                </div>
+                <div className="column">
+                  <div className="title">{mainpitch.title}</div>
+                  <div>{mainpitch.description}</div>
+                </div>
+              </div>
             </div>
           </div>
+          <div className="tile is-parent"></div>
         </div>
+
         <div className="container">
           <div className="section">
             <div className="columns">
@@ -139,7 +147,11 @@ export const pageQuery = graphql`
         heading
         subheading
         mainpitch {
-          image
+          image {
+            childImageSharp {
+              gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
+            }
+          }
           title
           description
         }
