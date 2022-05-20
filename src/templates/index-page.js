@@ -26,13 +26,15 @@ export const IndexPageTemplate = ({
     <div>
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
       <section className="section">
-        <div className="tile is-ancestor is-desktop">
-          <div className="tile is-parent"></div>
-          <div className="tile is-parent is-6 is-desktop">
-            <div className="tile is-child box">
-              <div className="columns level">
-                <div className="column level-item">
-                  <GatsbyImage image={pitchImage} alt={''} />
+        <div className="container">
+          <div className="columns">
+            <div className="column"></div>
+            <div className="column is-two-thirds">
+              <div className="box columns">
+                <div className="column level has-text-centered">
+                  <div className="level-item">
+                    <GatsbyImage image={pitchImage} alt={''} />
+                  </div>
                 </div>
                 <div className="column">
                   <div className="title">{mainpitch.title}</div>
@@ -40,53 +42,43 @@ export const IndexPageTemplate = ({
                 </div>
               </div>
             </div>
+            <div className="column"></div>
           </div>
-          <div className="tile is-parent"></div>
         </div>
-
         <div className="container">
           <div className="section">
             <div className="columns">
-              <div className="column is-10 is-offset-1">
-                <div className="content">
-                  <div className="content">
-                    <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
-                    </div>
-                    <div className="tile">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
-                    </div>
-                  </div>
-                  <div className="columns">
-                    <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
-                      </h3>
-                      <p>{description}</p>
-                    </div>
-                  </div>
-                  <Features gridItems={intro.blurbs} />
-                  <div className="columns">
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        See all products
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
-                    </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-                      </Link>
-                    </div>
-                  </div>
+              <div className="column">
+                <div className="box">
+                  <h3 className="has-text-weight-semibold is-size-2">
+                    {heading}
+                  </h3>
+                  <p>{description}</p>
                 </div>
               </div>
+              <div className="column"></div>
+              <div className="column"></div>
             </div>
+          </div>
+        </div>
+        <div className="columns">
+          <div className="column is-12"></div>
+        </div>
+        <Features gridItems={intro.blurbs} />
+        <div className="columns">
+          <div className="column is-12 has-text-centered">
+            <Link className="btn" to="/products">
+              See all products
+            </Link>
+          </div>
+        </div>
+        <div className="column is-12">
+          <h3 className="has-text-weight-semibold is-size-2">Latest stories</h3>
+          <BlogRoll />
+          <div className="column is-12 has-text-centered">
+            <Link className="btn" to="/blog">
+              Read more
+            </Link>
           </div>
         </div>
       </section>
@@ -163,6 +155,7 @@ export const pageQuery = graphql`
                 gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
               }
             }
+            link
             text
           }
           heading
