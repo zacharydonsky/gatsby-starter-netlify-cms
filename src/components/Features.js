@@ -1,7 +1,7 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
-
+import { Link } from 'gatsby';
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map((item) => (
@@ -14,10 +14,11 @@ const FeatureGrid = ({ gridItems }) => (
                 display: 'inline-block',
               }}
             >
-              <PreviewCompatibleImage imageInfo={item} />
+              <Link to={item.link}>
+                <PreviewCompatibleImage imageInfo={item} />
+              </Link>
             </div>
           </div>
-          <p>{item.link}</p>
           <p>{item.text}</p>
         </section>
       </div>
