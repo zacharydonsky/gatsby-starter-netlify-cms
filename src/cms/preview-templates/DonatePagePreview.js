@@ -1,19 +1,19 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { ProductPageTemplate } from '../../templates/product-page'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { DonatePageTemplate } from '../../templates/donate-page';
 
-const ProductPagePreview = ({ entry, getAsset }) => {
-  const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
-  const blurbs = entryBlurbs ? entryBlurbs.toJS() : []
+const DonatePagePreview = ({ entry, getAsset }) => {
+  const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs']);
+  const blurbs = entryBlurbs ? entryBlurbs.toJS() : [];
 
-  const entryTestimonials = entry.getIn(['data', 'testimonials'])
-  const testimonials = entryTestimonials ? entryTestimonials.toJS() : []
+  const entryTestimonials = entry.getIn(['data', 'testimonials']);
+  const testimonials = entryTestimonials ? entryTestimonials.toJS() : [];
 
-  const entryPricingPlans = entry.getIn(['data', 'pricing', 'plans'])
-  const pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : []
+  const entryPricingPlans = entry.getIn(['data', 'pricing', 'plans']);
+  const pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : [];
 
   return (
-    <ProductPageTemplate
+    <DonatePageTemplate
       image={getAsset(entry.getIn(['data', 'image']))}
       title={entry.getIn(['data', 'title'])}
       heading={entry.getIn(['data', 'heading'])}
@@ -43,14 +43,14 @@ const ProductPagePreview = ({ entry, getAsset }) => {
         plans: pricingPlans,
       }}
     />
-  )
-}
+  );
+};
 
-ProductPagePreview.propTypes = {
+DonatePagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
-}
+};
 
-export default ProductPagePreview
+export default DonatePagePreview;
