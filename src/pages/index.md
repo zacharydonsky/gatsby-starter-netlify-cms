@@ -2,15 +2,15 @@
 templateKey: index-page
 title: HATS
 image: /img/row-of-tiny-houses.jpeg
-heading: We are community members who want to do something about this desperate
-  emergency.
 subheading: Hamilton Alliance for Tiny Shelters
 mainpitch:
   image: /img/cabin-photo-Jeff-Willmer.jpeg
   title: HATS is a practical response to gaps in the housing crisis.
-  description: 'We’re tackling homelessness in practical ways by setting up warm
-    and safe tiny cabins for those living unhoused in our community. '
-description: Giving someone a safe, warm, place they can call home is one of the
+  description: >
+    We’re tackling homelessness in practical ways by setting up warm
+    and safe tiny cabins for those living unhoused in our community.
+description: >
+  Giving someone a safe, warm, place they can call home is one of the
   first stages in healing the whole person.  Hamilton Alliance for Tiny Shelters
   seeks to empower people experiencing homelessness.
 intro:

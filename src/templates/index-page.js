@@ -13,7 +13,6 @@ import FullWidthImage from '../components/FullWidthImage';
 export const IndexPageTemplate = ({
   image,
   title,
-  heading,
   subheading,
   mainpitch,
   description,
@@ -45,22 +44,6 @@ export const IndexPageTemplate = ({
             <div className="column"></div>
           </div>
         </div>
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column">
-                <div className="box">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    {heading}
-                  </h3>
-                  <p>{description}</p>
-                </div>
-              </div>
-              <div className="column"></div>
-              <div className="column"></div>
-            </div>
-          </div>
-        </div>
         <div className="columns">
           <div className="column is-12"></div>
         </div>
@@ -89,7 +72,6 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading: PropTypes.string,
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
@@ -106,7 +88,6 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
-        heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
@@ -131,13 +112,12 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
+        subheading
         image {
           childImageSharp {
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
         }
-        heading
-        subheading
         mainpitch {
           image {
             childImageSharp {
