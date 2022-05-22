@@ -11,7 +11,7 @@ tags:
   - event
 ---
 
-![chemex](/img/Inside-HATS-Cabin.jpg)
+![Inside-HATS-Cabin](/img/Inside-HATS-Cabin.jpg)
 
 The demonstration cabin, donated by Stoney Creek shed builder In the Back Yard, showcases many of the features that the first 10 cabins will have once built: insulated walls and floor, a bed, a microwave and small fridge, a wall socket to charge a phone, a fire extinguisher.
 
