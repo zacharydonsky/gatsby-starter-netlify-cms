@@ -15,22 +15,18 @@ description: >
   seeks to empower people experiencing homelessness.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/donate-logo.png
       link: /donate
       text: >
         Giving a donation is great way to support this initiative, and to make a big difference.
-    - image: /img/coffee-gear.png
+    - image: /img/volunteer-logo.png
       link: /volunteer
       text: >
         There’s lots of ways you can volunteer – we need a variety of skills, from handy work to helping with fundraising, and preparing meals.
-    - image: /img/tutorials.png
+    - image: /img/events-logo.png
       link: /events
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        Take a look at our upcoming events and join our newsletter.
 
   heading: What we offer
   description: >

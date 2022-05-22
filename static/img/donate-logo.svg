@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1280"
+   height="960"
+   viewBox="0 0 338.66668 253.99999"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="donate-logo.svg"
+   inkscape:export-filename="C:\Users\chalmers\projects\gatsby-starter-netlify-cms\static\img\volunteer-logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#8c8c8c"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="1161.0489"
+     inkscape:cy="886.88872"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="1912"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     units="px"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="background">
+    <rect
+       style="fill:#6d6d6d;fill-opacity:1;stroke:#ffffff;stroke-width:0"
+       id="rect833"
+       width="338.66666"
+       height="254"
+       x="5e-07"
+       y="5e-07"
+       rx="0"
+       ry="0" />
+  </g>
+  <g
+     inkscape:label="graphics"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path1013"
+       style="fill:#000000;stroke-width:4.40198"
+       d="M 936.07422 203.05859 C 915.2459 202.88123 894.33667 206.30369 874.67383 213.41992 C 836.28097 225.8942 809.30959 269.74084 783.32031 288.97656 C 750.23497 242.4508 701.23474 197.67416 639.69727 204.21875 C 550.73996 197.17451 472.3689 274.86256 466.41992 361.49609 C 453.43762 469.56119 530.40836 563.16234 611.63086 624.13867 C 620.07349 630.49376 628.51635 636.84999 636.95898 643.20508 C 717.67265 619.71433 798.0336 595.02794 878.55859 570.90234 C 933.60711 558.14175 988.10067 528.83909 1045.8652 537.06055 C 1067.4488 525.39912 1078.4768 489.27108 1091.334 466.79688 C 1112.9513 404.41619 1114.709 327.75256 1072.0488 273.41211 C 1042.0055 227.47773 989.30214 203.51184 936.07422 203.05859 z M 1008.8945 554.53711 C 889.76817 590.8595 769.96892 625.05868 651.66211 664.00195 C 592.39254 662.81749 577.94946 753.1354 641.87695 757.66992 C 706.01572 748.75258 766.10333 718.5846 831.61328 715.91992 C 878.82937 717.19763 931.15957 711.68147 975.07617 729.42578 C 952.55234 753.92903 893.79502 731.34801 857.66992 737.07422 C 780.8717 730.8185 711.61537 771.80497 636.92578 778.83984 C 515.76354 729.97607 400.93151 666.72298 281.23828 614.41016 C 239.95819 574.35858 170.45586 629.63059 208.93164 675.62695 C 299.48764 726.06176 393.50062 770.12266 486.25586 816.36719 C 578.30194 860.54231 669.52856 906.99642 763.32227 947.32617 C 851.59948 920.44935 936.66737 883.96892 1023.8125 853.66406 C 1077.4829 831.36564 1135.1267 818.28532 1193.4629 824.39844 C 1218.1633 818.56987 1255.4063 842.07419 1277.1426 836.94531 L 1277.1426 608.42188 C 1188.1837 588.34989 1098.7622 570.03934 1008.8945 554.53711 z M 377.55859 588.60352 C 361.8968 588.42105 347.92704 594.84459 338.55078 613.69922 C 376.5216 636.32056 416.9946 654.59614 456.48828 674.43359 C 486.72159 689.14042 516.9762 703.80491 547.30664 718.31055 C 581.5142 747.98131 579.54945 710.90362 581.10938 683.8125 C 544.37346 654.79223 497.87573 639.61615 456.52539 617.58203 C 434.46436 607.55915 403.66158 588.90762 377.55859 588.60352 z M 520.23047 590.91406 C 465.83997 601.64051 515.94999 627.08962 542.2832 636.5 C 562.3712 642.81774 584.42091 666.4308 606.11328 656.89062 C 595.37659 632.27895 552.83358 598.64456 520.23047 590.91406 z "
+       transform="scale(0.26458333)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="text">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:66.9424px;line-height:1.25;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.67357"
+       x="24.436668"
+       y="140.82849"
+       id="text837"><tspan
+         sodipodi:role="line"
+         id="tspan835"
+         x="24.436668"
+         y="140.82849"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:66.9424px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:1.67357">Donate</tspan></text>
+  </g>
+</svg>

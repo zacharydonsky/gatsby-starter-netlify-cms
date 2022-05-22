@@ -2,26 +2,26 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import { Link } from 'gatsby';
+import { GatsbyImage } from 'gatsby-plugin-image';
+import { getImage } from 'gatsby-plugin-image';
+// const featureImage =  || item.image;
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map((item) => (
       <div key={item.text} className="column is-4">
         <section className="section">
-          <div className="box">
-            <div className="has-text-centered">
-              <div
-                style={{
-                  width: '240px',
-                  display: 'inline-block',
-                }}
-              >
-                <Link to={item.link}>
-                  <PreviewCompatibleImage imageInfo={item} />
-                </Link>
+          <Link to={item.link}>
+            <div className="card">
+              <div className="card-image">
+                <GatsbyImage image={getImage(item.image)} alt={item.link} />
+              </div>
+              <div className="card-content">
+                <div className="content">
+                  <h3>{item.text}</h3>
+                </div>
               </div>
             </div>
-            <p>{item.text}</p>
-          </div>
+          </Link>
         </section>
       </div>
     ))}
