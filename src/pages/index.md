@@ -4,7 +4,7 @@ title: HATS
 image: /img/row-of-tiny-houses.jpeg
 subheading: Hamilton Alliance for Tiny Shelters
 mainpitch:
-  image: /img/cabin-photo-Jeff-Willmer.jpeg
+  image: /img/donate-logo.png
   title: HATS is a practical response to gaps in the housing crisis.
   description: >
     We’re tackling homelessness in practical ways by setting up warm

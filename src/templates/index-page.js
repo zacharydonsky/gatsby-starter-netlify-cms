@@ -24,44 +24,31 @@ export const IndexPageTemplate = ({
   return (
     <div>
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
-      <section className="section">
-        <div className="container">
-          <div className="columns">
-            <div className="column"></div>
-            <div className="column is-two-thirds">
-              <div className="box columns">
-                <div className="column level has-text-centered">
-                  <div className="level-item">
-                    <GatsbyImage image={pitchImage} alt={''} />
-                  </div>
-                </div>
-                <div className="column">
-                  <div className="title">{mainpitch.title}</div>
-                  <div>{mainpitch.description}</div>
-                </div>
+      <div className="max-width index-mainpitch-container">
+        <section className="section">
+          <div className="container">
+            <div className="columns">
+              <div className="column is-12 has-text-centered">
+                <div className="title">{mainpitch.title}</div>
+                <div className="subtitle">{mainpitch.description}</div>
               </div>
             </div>
-            <div className="column"></div>
           </div>
-        </div>
-        <div className="columns">
-          <div className="column is-12"></div>
-        </div>
-        <Features gridItems={intro.blurbs} />
-        <div className="columns">
-          <div className="column is-12 has-text-centered">
-            <Link className="btn" to="/products">
-              See all products
-            </Link>
-          </div>
-        </div>
-        <div className="column is-12">
-          <h3 className="has-text-weight-semibold is-size-2">Latest stories</h3>
-          <BlogRoll />
-          <div className="column is-12 has-text-centered">
-            <Link className="btn" to="/blog">
-              Read more
-            </Link>
+        </section>
+      </div>
+      <section className="section">
+        <div className="container">
+          <Features gridItems={intro.blurbs} />
+          <div className="column is-12">
+            <h3 className="has-text-weight-semibold is-size-2">
+              Latest Events
+            </h3>
+            <BlogRoll />
+            <div className="column is-12 has-text-centered">
+              <Link className="btn" to="/blog">
+                Read more
+              </Link>
+            </div>
           </div>
         </div>
       </section>
