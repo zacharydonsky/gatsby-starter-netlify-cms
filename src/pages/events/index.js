@@ -8,7 +8,7 @@ export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        {/* <FullWidthImage title="Events" /> */}
+        <FullWidthImage title="Events" />
         <div
           className="full-width-image-container margin-top-0"
           style={{

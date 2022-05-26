@@ -1,12 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { GatsbyImage } from 'gatsby-plugin-image';
-import { getImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
 import logo from '../../static/img/logo.svg';
-// import hero_image from '../../static/img/row-of-tiny-houses.jpeg';
 
-// const img = getImage(hero_image) || hero_image;
+import { StaticImage } from 'gatsby-plugin-image';
+
+Image.propTypes = {
+  src: PropTypes.string.isRequired,
+  alt: PropTypes.string,
+};
 
 export default function FullWidthImage(props) {
   const {
@@ -26,41 +28,22 @@ export default function FullWidthImage(props) {
           alignItems: 'center',
         }}
       >
-        {img?.url ? (
-          <img
-            src={img}
-            objectFit={'cover'}
-            objectPosition={imgPosition}
-            style={{
-              gridArea: '1/1',
-              // You can set a maximum height for the image, if you wish.
-              // height: height,
-              width: '100%',
-            }}
-            // You can optionally force an aspect ratio for the generated image
-            // aspectratio={3 / 1}
-            // This is a presentational image, so the alt should be an empty string
-            alt=""
-            formats={['auto', 'webp', 'avif']}
-          />
-        ) : (
-          <GatsbyImage
-            image={img}
-            objectFit={'cover'}
-            objectPosition={imgPosition}
-            style={{
-              gridArea: '1/1',
-              // You can set a maximum height for the image, if you wish.
-              maxHeight: height,
-            }}
-            layout="fullWidth"
-            // You can optionally force an aspect ratio for the generated image
-            aspectratio={3 / 1}
-            // This is a presentational image, so the alt should be an empty string
-            alt=""
-            formats={['auto', 'webp', 'avif']}
-          />
-        )}
+        <StaticImage
+          src="../../static/img/row-of-tiny-houses.jpeg"
+          alt="hero-image"
+          objectFit={'cover'}
+          objectPosition={imgPosition}
+          style={{
+            gridArea: '1/1',
+            // You can set a maximum height for the image, if you wish.
+            maxHeight: height,
+          }}
+          layout="fullWidth"
+          // You can optionally force an aspect ratio for the generated image
+          aspectratio={3 / 1}
+          // This is a presentational image, so the alt should be an empty string
+          formats={['auto', 'webp', 'avif']}
+        />
         {(title || subheading) && (
           <div
             style={{
@@ -85,13 +68,15 @@ export default function FullWidthImage(props) {
               >
                 <div className="columns level">
                   <div className="column level-item is-one-third">
-                    <div className="full-width-image-logo-container">
-                      <img
-                        src={logo}
-                        alt="HATS LOGO"
-                        className=".full-width-image-logo"
-                      />
-                    </div>
+                    <Link to="/">
+                      <div className="full-width-image-logo-container">
+                        <img
+                          src={logo}
+                          alt="HATS LOGO"
+                          className=".full-width-image-logo"
+                        />
+                      </div>
+                    </Link>
                   </div>
                   <div className="column level-item is-two-thirds full-width-image-headings">
                     <div className="has-text-centered">
