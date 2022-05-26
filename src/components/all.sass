@@ -3,6 +3,9 @@
 // Config vars
 // hats logo brand color: #c0d7e4
 $hats-blue: #c0d7e4
+$hats-dark-blue: #3d5afe
+$hats-light-blue: #8187ff
+$material-white: #ffffff
 $hats-blue-transparent: #c0d7e4E0
 $hats-blue-invert: #3f281b
 
@@ -133,9 +136,18 @@ $menu-label-color: $white-ter
   padding: 0.25em
 .full-width-image-subheading
   padding: 0.5em
-
 .index-mainpitch-container
   background: $primary
+  padding: 0.5em
+.donate-button-container
+  padding: 0.5em
+  background: $hats-dark-blue
+  color: $material-white
+  transition-duration: 200ms
+  transition-property: background, color
+  &:hover
+
+      background: $hats-light-blue
 
 // responsiveness
 +tablet-only

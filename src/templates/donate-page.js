@@ -8,6 +8,7 @@ import Testimonials from '../components/Testimonials';
 import Pricing from '../components/Pricing';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import FullWidthImage from '../components/FullWidthImage';
+import { Link } from 'gatsby';
 
 // eslint-disable-next-line
 export const DonatePageTemplate = ({
@@ -15,6 +16,8 @@ export const DonatePageTemplate = ({
   title,
   heading,
   description,
+  instructions,
+  donation_link,
   intro,
   main,
   testimonials,
@@ -31,11 +34,18 @@ export const DonatePageTemplate = ({
         <div className="container">
           <div className="section">
             <div className="columns">
-              <div className="column is-7 is-offset-1">
-                <h3 className="has-text-weight-semibold is-size-2">
-                  {heading}
-                </h3>
-                <p>{description}</p>
+              <div className="column column is-half is-offset-one-quarter">
+                <Link to={donation_link}>
+                  <div className="card is-primary">
+                    <div className="title has-text-centered donate-button-container">
+                      {heading}
+                    </div>
+                    <div className="card-content">
+                      <div className="subtitle">{instructions}</div>
+                      <div>{description}</div>
+                    </div>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -50,6 +60,8 @@ DonatePageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
+  instructions: PropTypes.string,
+  donation_link: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -79,6 +91,8 @@ const DonatePage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         description={frontmatter.description}
+        instructions={frontmatter.instructions}
+        donation_link={frontmatter.donation_link}
         intro={frontmatter.intro}
         main={frontmatter.main}
         testimonials={frontmatter.testimonials}
@@ -110,16 +124,9 @@ export const donatePageQuery = graphql`
           }
         }
         heading
+        instructions
         description
-        testimonials {
-          author
-          quote
-        }
-        full_image {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
+        donation_link
       }
     }
   }
