@@ -1,9 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { GatsbyImage } from 'gatsby-plugin-image';
-import { Center } from '@chakra-ui/react';
+import { getImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
 import logo from '../../static/img/logo.svg';
+// import hero_image from '../../static/img/row-of-tiny-houses.jpeg';
+
+// const img = getImage(hero_image) || hero_image;
 
 export default function FullWidthImage(props) {
   const {

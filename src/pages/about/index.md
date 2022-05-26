@@ -2,24 +2,14 @@
 templateKey: 'about-page'
 path: /about
 title: About Us
+image: /img/row-of-tiny-houses.jpeg
 ---
 
-### Shade-grown coffee
+We’re tackling homelessness in
+practical ways by setting up warm and safe tiny cabins
+for those living unhoused in our community.
 
-Giving someone a safe, warm, place they can call home is one of the first stages in healing the whole person. Hamilton Alliance for Tiny Shelters seeks to empower people experiencing homelessness.
+The cabins are intended as a temporary solution to fill the systemic gaps in the current housing crisis.
+Person-centred wrap-around support services are provided to residents, and the model embraces Housing First principles and will operate from an anti-oppressive lens. The HATS community will be designed and informed by those with lived experience.
 
-### Single origin
-
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
-
-### Sustainable farming
-
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
-
-### Direct sourcing
-
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+**Help us build an organization that drives social entrepreneurship, education, healing, change and empowerment.**
