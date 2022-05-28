@@ -5,10 +5,10 @@ import logo from '../../static/img/logo.svg';
 
 import { StaticImage } from 'gatsby-plugin-image';
 
-Image.propTypes = {
-  src: PropTypes.string.isRequired,
-  alt: PropTypes.string,
-};
+// Image.propTypes = {
+//   src: PropTypes.string.isRequired,
+//   alt: PropTypes.string,
+// };
 
 export default function FullWidthImage(props) {
   const {
