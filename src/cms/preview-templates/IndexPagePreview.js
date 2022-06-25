@@ -12,7 +12,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         title={data.title}
         description={data.description}
         intro={data.intro || { blurbs: [] }}
-        mainpitch={data.mainpitch || { image: getAsset(data.mainpitch.image) }}
+        mainpitch={data.mainpitch}
       />
     );
   } else {

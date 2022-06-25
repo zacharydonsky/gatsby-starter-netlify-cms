@@ -106,11 +106,6 @@ export const pageQuery = graphql`
           }
         }
         mainpitch {
-          image {
-            childImageSharp {
-              gatsbyImageData(width: 240, quality: 100, layout: CONSTRAINED)
-            }
-          }
           title
           description
         }
@@ -125,8 +120,6 @@ export const pageQuery = graphql`
             link
             text
           }
-          heading
-          description
         }
       }
     }
