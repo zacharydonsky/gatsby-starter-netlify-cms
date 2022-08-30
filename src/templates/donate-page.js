@@ -35,17 +35,26 @@ export const DonatePageTemplate = ({
           <div className="section">
             <div className="columns">
               <div className="column column is-half is-offset-one-quarter">
-                <Link to={donation_link}>
-                  <div className="card is-primary">
-                    <div className="title has-text-centered donate-button-container">
-                      {heading}
-                    </div>
-                    <div className="card-content">
-                      <div className="subtitle">{instructions}</div>
-                      <div>{description}</div>
-                    </div>
+                <div className="modal column is-4">
+                  <div className="modal-background"></div>
+                  <div className="modal-content">
+                    <script
+                      id="ch_cdn_embed"
+                      type="text/javascript"
+                      src="https://www.canadahelps.org/secure/js/cdf_embed.2.js"
+                      charSet="utf-8"
+                      data-language="en"
+                      data-page-id="73921"
+                      data-root-url="https://www.canadahelps.org"
+                      data-formtype="0"
+                      data-cfasync="false"
+                    ></script>
                   </div>
-                </Link>
+                  <button
+                    className="modal-close is-large"
+                    aria-label="close"
+                  ></button>
+                </div>
               </div>
             </div>
           </div>
