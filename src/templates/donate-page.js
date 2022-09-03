@@ -8,6 +8,7 @@ import Testimonials from '../components/Testimonials';
 import Pricing from '../components/Pricing';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import FullWidthImage from '../components/FullWidthImage';
+import DonateForm from '../components/donate-form';
 import { Link } from 'gatsby';
 
 // eslint-disable-next-line
@@ -33,30 +34,7 @@ export const DonatePageTemplate = ({
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
-            <div className="columns">
-              <div className="column column is-half is-offset-one-quarter">
-                <div className="modal column is-4">
-                  <div className="modal-background"></div>
-                  <div className="modal-content">
-                    <script
-                      id="ch_cdn_embed"
-                      type="text/javascript"
-                      src="https://www.canadahelps.org/secure/js/cdf_embed.2.js"
-                      charSet="utf-8"
-                      data-language="en"
-                      data-page-id="73921"
-                      data-root-url="https://www.canadahelps.org"
-                      data-formtype="0"
-                      data-cfasync="false"
-                    ></script>
-                  </div>
-                  <button
-                    className="modal-close is-large"
-                    aria-label="close"
-                  ></button>
-                </div>
-              </div>
-            </div>
+            <DonateForm></DonateForm>
           </div>
         </div>
       </section>
