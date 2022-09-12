@@ -11,34 +11,35 @@ import { Script } from 'gatsby';
 //   }
 // };
 
-const useScript = async (resourceUrl) => {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.async = false;
-    script.src = resourceUrl;
-    document.body.appendChild(script);
+// const useScript = async (resourceUrl) => {
+//   useEffect(() => {
+//     const script = document.createElement('script');
+//     script.async = false;
+//     script.src = resourceUrl;
+//     script.document.body.appendChild(script);
 
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, [resourceUrl]);
-};
+//     return () => {
+//       document.body.removeChild(script);
+//     };
+//   }, [resourceUrl]);
+// };
 
 function DonateForm() {
-  const form = useScript(
-    <Script
-      id="ch_cdn_embed"
-      type="text/javascript"
-      src="https://www.canadahelps.org/secure/js/cdf_embed.2.js"
-      charSet="utf-8"
-      data-language="en"
-      data-page-id="73921"
-      data-root-url="https://www.canadahelps.org"
-      data-formtype="0"
-      data-cfasync="false"
-    />
+  return (
+    <div className="container">
+      <Script
+        id="ch_cdn_embed"
+        type="text/javascript"
+        src="https://www.canadahelps.org/secure/js/cdf_embed.2.js"
+        charSet="utf-8"
+        data-language="en"
+        data-page-id="73921"
+        data-root-url="https://www.canadahelps.org"
+        data-formtype="0"
+        data-cfasync="false"
+      />
+    </div>
   );
-  return form;
 }
 const DonateModal = class extends React.Component {
   state = {
@@ -70,14 +71,16 @@ const DonateModal = class extends React.Component {
           <div class="modal-background"></div>
           <div class="modal-content">
             <div class="box">
-              <DonateForm />
+              <div
+                className="modal-close is-large"
+                aria-label="close"
+                onClick={this.handleClick}
+              ></div>
+              {this.state.isModal && (
+                <iframe src="https://www.canadahelps.org/en/dne/73921"></iframe>
+              )}
             </div>
           </div>
-          <div
-            className="modal-close is-large"
-            aria-label="close"
-            onClick={this.handleClick}
-          ></div>
         </div>
         <div className="button" onClick={this.handleClick}>
           Donation button
