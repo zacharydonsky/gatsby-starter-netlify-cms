@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { Script } from 'gatsby';
+import Iframe from 'react-iframe';
 
 // const DonateForm = class extends React.Component {
 //   render() {
@@ -68,17 +69,23 @@ const DonateModal = class extends React.Component {
           className={`modal ${active} `}
           onKeyPress={this.closeModalOnEscKey}
         >
-          <div class="modal-background"></div>
-          <div class="modal-content">
-            <div class="box">
-              <div
-                className="modal-close is-large"
-                aria-label="close"
-                onClick={this.handleClick}
-              ></div>
-              {this.state.isModal && (
-                <iframe src="https://www.canadahelps.org/en/dne/73921"></iframe>
-              )}
+          <div className="modal-background" onClick={this.handleClick}></div>
+          <div className="modal-content">
+            <div className="box">
+              <div className="field">
+                <div
+                  className="modal-close is-large"
+                  aria-label="close"
+                  onClick={this.handleClick}
+                ></div>
+              </div>
+              <div className="field">
+                <Iframe
+                  url="https://www.canadahelps.org/en/dne/73921"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
             </div>
           </div>
         </div>
