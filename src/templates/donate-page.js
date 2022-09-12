@@ -10,6 +10,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import FullWidthImage from '../components/FullWidthImage';
 import DonateForm from '../components/donate-form';
 import { Link } from 'gatsby';
+import DonateModal from '../components/donate-form';
 
 // eslint-disable-next-line
 export const DonatePageTemplate = ({
@@ -34,7 +35,7 @@ export const DonatePageTemplate = ({
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
-            <DonateForm></DonateForm>
+            <DonateModal />
           </div>
         </div>
       </section>

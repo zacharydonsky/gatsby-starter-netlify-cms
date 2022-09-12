@@ -117,6 +117,7 @@ export const pageQuery = graphql`
                 gatsbyImageData(quality: 100, layout: FULL_WIDTH)
               }
             }
+            id
             link
             text
           }
