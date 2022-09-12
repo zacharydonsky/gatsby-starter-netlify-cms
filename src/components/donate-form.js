@@ -1,26 +1,45 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { Script } from 'gatsby';
 
-const DonateForm = class extends React.Component {
-  render() {
-    return (
-      <div>
-        <Script
-          id="ch_cdn_embed"
-          type="text/javascript"
-          src="https://www.canadahelps.org/secure/js/cdf_embed.2.js"
-          charSet="utf-8"
-          data-language="en"
-          data-page-id="73921"
-          data-root-url="https://www.canadahelps.org"
-          data-formtype="0"
-          data-cfasync="false"
-        />
-      </div>
-    );
-  }
+// const DonateForm = class extends React.Component {
+//   render() {
+//     return (
+//       <div>
+
+//     );
+//   }
+// };
+
+const useScript = async (resourceUrl) => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.async = false;
+    script.src = resourceUrl;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, [resourceUrl]);
 };
 
+function DonateForm() {
+  const form = useScript(
+    <Script
+      id="ch_cdn_embed"
+      type="text/javascript"
+      src="https://www.canadahelps.org/secure/js/cdf_embed.2.js"
+      charSet="utf-8"
+      data-language="en"
+      data-page-id="73921"
+      data-root-url="https://www.canadahelps.org"
+      data-formtype="0"
+      data-cfasync="false"
+    />
+  );
+  return form;
+}
 const DonateModal = class extends React.Component {
   state = {
     isModal: false,
