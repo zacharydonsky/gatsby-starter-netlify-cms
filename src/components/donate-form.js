@@ -43,13 +43,19 @@ function DonateForm() {
   );
 }
 const DonateModal = class extends React.Component {
-  state = {
-    isModal: false,
-  };
+  constructor(props) {
+    super(props);
+    this.is_modal = props.is_modal;
+    this.handleClick = props.handleClick;
+  }
+  // state = {
+  //   isModal: props.is_modal,
+  // };
 
-  handleClick = () => {
-    this.setState({ isModal: !this.state.isModal });
-  };
+  // handleClick = () => {
+  //   this.is_modal = !this.is_modal;
+  //   this.setState({ isModal: !this.is_modal });
+  // };
   // TODO: Make this work
   // should set isModal to false
   // on escape key press
@@ -61,7 +67,7 @@ const DonateModal = class extends React.Component {
 
   render() {
     // toggle 'is-active' class on modal based on state of 'active' in this class
-    const active = this.state.isModal ? 'is-active' : '';
+    const active = this.is_modal ? 'is-active' : '';
 
     return (
       <div>
@@ -81,9 +87,6 @@ const DonateModal = class extends React.Component {
               />
             </div>
           </div>
-        </div>
-        <div className="button" onClick={this.handleClick}>
-          Donation button
         </div>
       </div>
     );
