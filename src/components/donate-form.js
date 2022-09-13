@@ -62,30 +62,23 @@ const DonateModal = class extends React.Component {
   render() {
     // toggle 'is-active' class on modal based on state of 'active' in this class
     const active = this.state.isModal ? 'is-active' : '';
+
     return (
       <div>
-        <div
-          id="modal-js-example"
-          className={`modal ${active} `}
-          onKeyPress={this.closeModalOnEscKey}
-        >
+        <div className={`modal ${active}`} onKeyPress={this.closeModalOnEscKey}>
           <div className="modal-background" onClick={this.handleClick}></div>
-          <div className="modal-content">
-            <div className="box">
-              <div className="field">
-                <div
-                  className="modal-close is-large"
-                  aria-label="close"
-                  onClick={this.handleClick}
-                ></div>
-              </div>
-              <div className="field">
-                <Iframe
-                  url="https://www.canadahelps.org/en/dne/73921"
-                  width="100%"
-                  height="100%"
-                />
-              </div>
+          <div
+            className="modal-close is-large"
+            aria-label="close"
+            onClick={this.handleClick}
+          ></div>
+          <div className="modal-content donate-form">
+            <div className="box donate-form">
+              <Iframe
+                url="https://www.canadahelps.org/en/dne/73921"
+                width="100%"
+                height="100%"
+              />
             </div>
           </div>
         </div>

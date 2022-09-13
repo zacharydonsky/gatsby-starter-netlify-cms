@@ -146,8 +146,21 @@ $menu-label-color: $white-ter
   transition-duration: 200ms
   transition-property: background, color
   &:hover
-
       background: $hats-light-blue
+
+// donate-form modal
+$mobile: 768px
+$desktop: 1024px
+$widescreen: 1280px
+$fullhd: 1408px
+
+.donate-form
+  @include until($desktop)
+    $box-radius: 0
+    height : 80vh
+    width : 100vw
+  @include from($desktop) 
+    height : 80vh
 
 // responsiveness
 +tablet-only
@@ -173,3 +186,5 @@ $menu-label-color: $white-ter
     background-color: #FFFFFF00
   .full-width-image-headings
     display: none
+
+
