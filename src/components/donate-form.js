@@ -43,40 +43,33 @@ function DonateForm() {
   );
 }
 const DonateModal = class extends React.Component {
-  constructor(props) {
-    super(props);
-    this.is_modal = props.is_modal;
-    this.handleClick = props.handleClick;
-  }
-  // state = {
-  //   isModal: props.is_modal,
+  // constructor(props) {
+  //   super(props);
+  //   this.is_modal = props.is_modal;
+  //   // this.handleClick = this.props.handleClick.bind(this);
+  // }
+  // closeModalOnEscKey = (event) => {
+  //   if (event.keyCode === 27) {
+  //     this.setState({ isModal: false });
+  //   }
   // };
-
-  // handleClick = () => {
-  //   this.is_modal = !this.is_modal;
-  //   this.setState({ isModal: !this.is_modal });
-  // };
-  // TODO: Make this work
-  // should set isModal to false
-  // on escape key press
-  closeModalOnEscKey = (event) => {
-    if (event.keyCode === 27) {
-      this.setState({ isModal: false });
-    }
-  };
 
   render() {
     // toggle 'is-active' class on modal based on state of 'active' in this class
-    const active = this.is_modal ? 'is-active' : '';
+    // debugger;
+    const active = this.props.is_modal ? 'is-active' : '';
 
     return (
       <div>
         <div className={`modal ${active}`} onKeyPress={this.closeModalOnEscKey}>
-          <div className="modal-background" onClick={this.handleClick}></div>
+          <div
+            className="modal-background"
+            onClick={this.props.click_method}
+          ></div>
           <div
             className="modal-close is-large"
             aria-label="close"
-            onClick={this.handleClick}
+            onClick={this.props.click_method}
           ></div>
           <div className="modal-content donate-form">
             <div className="box donate-form">

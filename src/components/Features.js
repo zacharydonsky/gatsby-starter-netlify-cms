@@ -8,70 +8,52 @@ import DonateModal from './donate-form';
 import { navigate } from 'gatsby';
 
 const state = {
+  // tracks if donate modal 'is' active
   donate_is_modal: false,
 };
 
-const handleClick = function (item) {
-  if (item.id === 'donate-button') {
-    state.donate_is_modal = !state.donate_is_modal;
-  } else {
-    navigate(item.link);
-  }
-};
+const handleClick = function (item) {};
 
-// const Features = class extends React.Component {
-//   render() {
-//     return (
-//       <div>
-//         <DonateModal isDonateButton={false} />
-//         <div className="columns is-multiline">
-//           {this.props.gridItems.map((item) => (
-//             <div className="card">
-//               <div className="card-image">
-//                 <GatsbyImage
-//                   image={getImage(this.item.image)}
-//                   alt={this.item.link}
-//                 />
-//               </div>
-//               <div className="card-content">
-//                 <div className="content">
-//                   <h3>{this.item.text}</h3>
-//                 </div>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     );
-//   }
-// };
-
-const FeatureGrid = ({ gridItems }) => (
-  <div>
-    <DonateModal is_modal={state.donate_is_modal} click_method={handleClick} />
-    <div className="columns is-multiline">
-      {gridItems.map((item) => (
-        <div key={item.text} className="column is-4">
-          <div
-            className="card"
-            onClick={() => {
-              handleClick(item);
-            }}
-          >
-            <div className="card-image">
-              <GatsbyImage image={getImage(item.image)} alt={item.link} />
-            </div>
-            <div className="card-content">
-              <div className="content">
-                <h3>{item.text}</h3>
+const FeatureGrid = ({ gridItems }) => {
+  const [donate_is_modal, set_donate_is_modal] = React.useState(false);
+  const handleClick = (item) => {};
+  return (
+    <div>
+      <DonateModal
+        is_modal={donate_is_modal}
+        click_method={() => set_donate_is_modal(!donate_is_modal)}
+      />
+      <div className="columns is-multiline">
+        {gridItems.map((item) => (
+          <div key={item.text} className="column is-4">
+            <Link>
+              <div
+                className="card"
+                onClick={() => {
+                  if (item.id === 'donate-button') {
+                    // toggle wether donate modal 'is' active
+                    set_donate_is_modal(!donate_is_modal);
+                  } else {
+                    navigate(item.link);
+                  }
+                }}
+              >
+                <div className="card-image">
+                  <GatsbyImage image={getImage(item.image)} alt={item.link} />
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <h3>{item.text}</h3>
+                  </div>
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 FeatureGrid.propTypes = {
   gridItems: PropTypes.arrayOf(
