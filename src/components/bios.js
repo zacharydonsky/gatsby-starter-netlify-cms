@@ -10,11 +10,16 @@ const BioList = ({ bios }) => {
     <div className="columns is-multiline">
       {bios.map((item) => (
         <div key={item.next} className="column is-4">
-          <div className="card-image">
-            <GatsbyImage image={getImage(item.image)} alt={item.link} />
+          <div className="card p-4">
+            <div className="card-image is-align-content-center">
+              <GatsbyImage image={getImage(item.image)} alt={item.link} />
+            </div>
+            <div className="card-content">
+              <div className="title is-4">{item.name}</div>
+              <div className="subtitle is-6">{item.position}</div>
+              <div className="content">{item.text}</div>
+            </div>
           </div>
-          <div>{item.name}</div>
-          <div>{item.position}</div>
         </div>
       ))}
     </div>

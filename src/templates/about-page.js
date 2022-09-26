@@ -23,6 +23,10 @@ export const AboutPageTemplate = ({
     <div>
       <FullWidthImage img={heroImage} title={title} />
       <section className="section section--gradient">
+        <div className="title">{about_us.title}</div>
+        <div className="content">{about_us.description}</div>
+        <div className="title">{origin_story.origin_title}</div>
+        <div className="content">{origin_story.description}</div>
         <div className="container">
           <BioList bios={bios} />
         </div>
