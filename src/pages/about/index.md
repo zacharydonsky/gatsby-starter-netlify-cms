@@ -20,9 +20,6 @@ origin_story:
     There’s a railway bridge just steps from where I live.
 
 
-     
-
-
     ![Photo - through the bridge railing](/img/photo-through-the-bridge-railing.jpg "Through the bridge railing")
 
 
@@ -41,7 +38,7 @@ origin_story:
     What could I do?    
 
 
-    That night, a story about tiny shelters popped up on my newsfeed.
+    That night, a story about tiny shelters popped up on my news feed.
 
 
     I sent a message to the newspaper reporter and he put me in touch with the organizers of A Better Tent City in Kitchener.  The information gathering began – many, many hours on the phone, emails and texts.
