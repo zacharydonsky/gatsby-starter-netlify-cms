@@ -7,7 +7,7 @@ about_us:
   title: About Us
   description: >-
     We’re tackling homelessness in practical ways by setting up warm and safe
-    tiny cabins for those living unhoused in our community.
+    tiny cabins for those living un-housed in our community.
 
 
     The cabins are intended as a temporary solution to fill the systemic gaps in the current housing crisis. Person-centred wrap-around support services are provided to residents, and the model embraces Housing First principles and will operate from an anti-oppressive lens. The HATS community will be designed and informed by those with lived experience.
@@ -61,3 +61,4 @@ bios:
       She's helped researchers and academics publish in top academic journals,
       and professionals write books that showcase their expertise.
     image: /img/juliaphoto.png
+---
