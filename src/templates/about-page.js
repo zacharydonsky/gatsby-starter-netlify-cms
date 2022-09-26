@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import FullWidthImage from '../components/FullWidthImage';
 
-import bioList from '../components/bios';
+import BioList from '../components/bios';
 // eslint-disable-next-line
 
 export const AboutPageTemplate = ({
@@ -24,7 +24,7 @@ export const AboutPageTemplate = ({
       <FullWidthImage img={heroImage} title={title} />
       <section className="section section--gradient">
         <div className="container">
-          <bioList bios={bios} />
+          <BioList bios={bios} />
         </div>
       </section>
     </div>

@@ -5,18 +5,22 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 import { getImage } from 'gatsby-plugin-image';
 import { navigate } from 'gatsby';
 
-const bioList = ({ bios }) => {
+const BioList = ({ bios }) => {
   return (
     <div className="columns is-multiline">
       {bios.map((item) => (
         <div key={item.next} className="column is-4">
+          <div className="card-image">
+            <GatsbyImage image={getImage(item.image)} alt={item.link} />
+          </div>
           <div>{item.name}</div>
+          <div>{item.position}</div>
         </div>
       ))}
     </div>
   );
 };
-bioList.prototypes = {
+BioList.prototypes = {
   bios: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -26,4 +30,4 @@ bioList.prototypes = {
     })
   ),
 };
-export default bioList;
+export default BioList;
