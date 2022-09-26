@@ -5,6 +5,7 @@ import { getImage } from 'gatsby-plugin-image';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import FullWidthImage from '../components/FullWidthImage';
+import MarkdownContent from '../components/MarkdownContent';
 
 import BioList from '../components/bios';
 // eslint-disable-next-line
@@ -24,9 +25,12 @@ export const AboutPageTemplate = ({
       <FullWidthImage img={heroImage} title={title} />
       <section className="section section--gradient">
         <div className="title">{about_us.title}</div>
-        <div className="content">{about_us.description}</div>
+        <MarkdownContent content={about_us.description} className="content" />
         <div className="title">{origin_story.origin_title}</div>
-        <div className="content">{origin_story.description}</div>
+        <MarkdownContent
+          content={origin_story.description}
+          className="content"
+        />
         <div className="container">
           <BioList bios={bios} />
         </div>
