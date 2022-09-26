@@ -20,9 +20,6 @@ origin_story:
     There’s a railway bridge just steps from where I live.
 
 
-    ![Photo - through the bridge railing](/img/photo-through-the-bridge-railing.jpg "Through the bridge railing")
-
-
     A friend and I were crossing it last winter, when I looked down and realized we were walking over someone’s makeshift home.
 
 
