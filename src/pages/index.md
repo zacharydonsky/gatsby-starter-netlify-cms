@@ -24,11 +24,12 @@ intro:
       link: /volunteer
       id: volunteer-button
       text: >
-        There’s lots of ways you can volunteer – we need a variety of skills,
-        from handy work to helping with fundraising, and preparing meals.
+        There are lots of ways to help - from fundraising to handy work and
+        preparing meals.
     - image: /img/events-logo.png
       link: /events
       id: events-button
-      text: |
-        Take a look at our upcoming events and join our newsletter.
+      text: >
+        Sign up for our newsletter and get early alerts about our upcoming
+        events.
 ---
