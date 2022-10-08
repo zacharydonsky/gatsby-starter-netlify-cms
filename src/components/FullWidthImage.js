@@ -50,12 +50,31 @@ export default function FullWidthImage(props) {
             style={{
               // By using the same grid area for both, they are stacked on top of each other
               gridArea: '1/1',
+              width: '100%',
+              height: '100%',
               position: 'relative',
               // This centers the other elements inside the hero component
               placeItems: 'center',
               display: 'grid',
             }}
           >
+            <div
+              style={{
+                position: 'absolute',
+                bottom: 0,
+                right: 0,
+                // top: '0',
+                marginBotton: 0,
+                textAlign: 'center',
+                height: '15px',
+                width: '340px',
+                color: 'white',
+                fontSize: '10px',
+                padding: '0px',
+              }}
+            >
+              {photo_credit}
+            </div>
             {/* Any content here will be centered in the component */}
             {/* An addition columns is used to restrict the size of the title card */}
             <div className="columns is-mobile">
@@ -93,23 +112,6 @@ export default function FullWidthImage(props) {
                       )}
                     </div>
                   </div>
-                </div>
-                <div
-                  className="box"
-                  style={{
-                    position: 'absolute',
-                    bottom: 30,
-                    // right: 0,
-                    // top: '0',
-
-                    textAlign: 'center',
-                    height: '15px',
-                    width: '340px',
-                    fontSize: '10px',
-                    padding: '0px',
-                  }}
-                >
-                  {photo_credit}
                 </div>
               </div>
               <div className="column"></div>
