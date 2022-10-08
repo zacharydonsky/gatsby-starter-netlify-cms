@@ -81,7 +81,7 @@ export default function FullWidthImage(props) {
                   <div className="column level-item is-two-thirds full-width-image-headings">
                     <div className="has-text-centered">
                       {title && (
-                        <h1 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen full-width-image-title">
+                        <h1 className="has-text-weight-bold is-size-1 full-width-image-title">
                           {title}
                         </h1>
                       )}
