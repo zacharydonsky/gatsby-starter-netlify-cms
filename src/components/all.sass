@@ -134,8 +134,8 @@ $menu-label-color: $white-ter
   // background-color: $primary-transparent
   line-height: 1
   // margin: 0 3em 0 
-  min-width: 6em
-  text-align: left
+  // min-width: 6em
+  // text-align: left
 
 
 .full-width-image-subheading
@@ -167,10 +167,16 @@ $fullhd: 1408px
     height : 80vh
 
 // responsiveness
+.full-width-image-box
+  @include from($desktop) 
+    min-width: 30em
+
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
-
+  .full-width-image-box
+    background-color: #FFFFFF00
+    min-width: none
 +mobile
   .blog-list-item header
     display: block
@@ -188,6 +194,7 @@ $fullhd: 1408px
     // max-width: 70px
   .full-width-image-box
     background-color: #FFFFFF00
+    min-width: none
   .full-width-image-headings
     display: none
 

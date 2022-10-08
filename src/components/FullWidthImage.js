@@ -17,6 +17,7 @@ export default function FullWidthImage(props) {
     title,
     subheading,
     imgPosition = 'bottom middle',
+    photo_credit = 'Photo courtesy of Low Income Housing Institute in Seattle (LIHI)',
   } = props;
 
   return (
@@ -92,6 +93,23 @@ export default function FullWidthImage(props) {
                       )}
                     </div>
                   </div>
+                </div>
+                <div
+                  className="box"
+                  style={{
+                    position: 'absolute',
+                    bottom: 30,
+                    // right: 0,
+                    // top: '0',
+
+                    textAlign: 'center',
+                    height: '15px',
+                    width: '340px',
+                    fontSize: '10px',
+                    padding: '0px',
+                  }}
+                >
+                  {photo_credit}
                 </div>
               </div>
               <div className="column"></div>
