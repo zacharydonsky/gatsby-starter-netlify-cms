@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'gatsby';
 import logo from '../../static/img/logo.svg';
 
+import facebook from '../img/social/facebook.svg';
+import instagram from '../img/social/instagram.svg';
+import youtube from '../img/social/youtube.svg';
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props);
@@ -79,7 +83,40 @@ const Navbar = class extends React.Component {
               </Link>
             </div>
             <div className="navbar-end">
-              <div className="container"></div>
+              <div className="container">
+                <div className="social">
+                  <a
+                    title="facebook"
+                    href="https://www.facebook.com/HamiltonTinyShelters"
+                  >
+                    <img
+                      src={facebook}
+                      alt="Facebook"
+                      style={{ width: '1em', height: '1em' }}
+                    />
+                  </a>
+                  <a
+                    title="instagram"
+                    href="https://www.instagram.com/hamiltontinyshelters/"
+                  >
+                    <img
+                      src={instagram}
+                      alt="Instagram"
+                      style={{ width: '1em', height: '1em' }}
+                    />
+                  </a>
+                  <a
+                    title="youtube"
+                    href="https://youtube.com/channel/UCToxMvBcplHL4ZzCzQ9RuQQ"
+                  >
+                    <img
+                      src={youtube}
+                      alt="Youtube"
+                      style={{ width: '1em', height: '1em' }}
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

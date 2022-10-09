@@ -15,6 +15,13 @@ $primary-invert: $hats-blue-invert
 $body-color: #333
 $black: #2b2523
 
+// breakpoints
+$mobile: 768px
+$desktop: 1024px
+$widescreen: 1280px
+$fullhd: 1408px
+
+  
 .navbar .navbar-menu
   box-shadow: none !important
 
@@ -108,9 +115,9 @@ $menu-label-color: $white-ter
 .social
   padding: 2em
 .social a
-    padding: .5em .5em .3em .5em
+    padding: .5em .3em .5em
     border-radius: 1em
-    background-color: $white-ter
+    // background-color: $white-ter
     margin: .5em
     width: 1em
     height: 1em
@@ -151,12 +158,6 @@ $menu-label-color: $white-ter
   transition-property: background, color
   &:hover
       background: $hats-light-blue
-
-// donate-form modal
-$mobile: 768px
-$desktop: 1024px
-$widescreen: 1280px
-$fullhd: 1408px
 
 .donate-form
   @include until($desktop)
