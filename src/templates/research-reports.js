@@ -5,13 +5,16 @@ import { getImage } from 'gatsby-plugin-image';
 import Layout from '../components/Layout';
 import FullWidthImage from '../components/FullWidthImage';
 
-export const ResearchReportsTemplate = ({ title, image }) => {
+import ResearchReportThumbs from '../components/ResearchReportThumbs';
+export const ResearchReportsTemplate = ({ title, image, researchReports }) => {
   const heroImage = getImage(image) || image;
 
   return (
     <div>
       <FullWidthImage img={heroImage} title={title} />
-      <section className="section section--gradient"></section>
+      <section className="section section--gradient">
+        <ResearchReportThumbs researchReports={researchReports} />
+      </section>
     </div>
   );
 };
@@ -19,6 +22,7 @@ export const ResearchReportsTemplate = ({ title, image }) => {
 ResearchReportsTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  ResearchReports: PropTypes.array,
 };
 
 const ResearchReports = ({ data }) => {
@@ -29,6 +33,7 @@ const ResearchReports = ({ data }) => {
       <ResearchReportsTemplate
         title={frontmatter.title}
         image={frontmatter.image}
+        researchReports={frontmatter.researchReports}
       />
     </Layout>
   );
@@ -53,6 +58,19 @@ export const researchReportsPageQuery = graphql`
         image {
           childImageSharp {
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+          }
+        }
+        researchReports {
+          thumbnail {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            }
+          }
+          title
+          author
+          summary
+          file {
+            publicURL
           }
         }
       }
