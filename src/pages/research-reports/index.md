@@ -12,9 +12,9 @@ researchReports:
       homelessness.
     file: /research-reports/Survey-Persons-with-Lived-Experience.pdf
 research-reports:
-  - title: HATS Program Overview
+  - thumbnail: /img/screen-shot-2022-10-09-at-6.41.57-pm.png
+    title: HATS Program Overview
     author: HATS
     summary: An overview of the planning and program delivery of HATS
-    Thumbnail: /img/screen-shot-2022-10-09-at-6.41.57-pm.png
-    file: /static/research-reports/Program-Overview.pdf
+    file: /research-reports/Program-Overview.pdf
 ---
