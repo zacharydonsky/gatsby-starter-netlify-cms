@@ -121,3 +121,15 @@ collections:
                   },
                 ],
             }
+      - file: 'src/pages/research-reports/index.md'
+        label: 'Research & Reports'
+        name: 'research-reports'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'about-page',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
