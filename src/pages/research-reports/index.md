@@ -6,8 +6,8 @@ title: Research & Reports
 image: /img/row-of-tiny-houses.jpeg
 researchReports:
 
-- thumbnail: /img/chalmers.png
-  title: Test Report
-  author: Mister Chalmers
-  summary: Super interesting. Not really, it's just a picture
+- thumbnail: /img/survey-betterstreet-thumb.png
+  title: Persons With Lived Experience Report
+  author: Better Street
+  summary: The Hamilton Alliance for Tiny Shelters conducted interviews of thirty-six people with current or recent lived experience of unsheltered homelessness.
   file: /research-reports/chalmers.png
