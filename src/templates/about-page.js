@@ -3,22 +3,15 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { getImage } from 'gatsby-plugin-image';
 import Layout from '../components/Layout';
-import Content, { HTMLContent } from '../components/Content';
+
 import FullWidthImage from '../components/FullWidthImage';
 import MarkdownContent from '../components/MarkdownContent';
 
 import BioList from '../components/bios';
 // eslint-disable-next-line
 
-export const AboutPageTemplate = ({
-  title,
-  image,
-  about_us,
-  origin_story,
-  bios,
-}) => {
+export const AboutPageTemplate = ({ title, image, about_us, team_bios }) => {
   const heroImage = getImage(image) || image;
-  // const PageContent = contentComponent || Content;
 
   return (
     <div>
@@ -26,13 +19,9 @@ export const AboutPageTemplate = ({
       <section className="section section--gradient">
         <div className="title">{about_us.title}</div>
         <MarkdownContent content={about_us.description} className="content" />
-        <div className="title">{origin_story.origin_title}</div>
-        <MarkdownContent
-          content={origin_story.description}
-          className="content"
-        />
+        <div className="title">{team_bios.title}</div>
         <div className="container">
-          <BioList bios={bios} />
+          <BioList bios={team_bios.bios} />
         </div>
       </section>
     </div>
@@ -46,11 +35,10 @@ AboutPageTemplate.propTypes = {
     title: PropTypes.string,
     description: PropTypes.string,
   }),
-  origin_story: PropTypes.shape({
-    origin_title: PropTypes.string,
-    description: PropTypes.string,
+  team_bios: PropTypes.shape({
+    title: PropTypes.string,
+    bios: PropTypes.array,
   }),
-  bios: PropTypes.array,
 };
 
 const AboutPage = ({ data }) => {
@@ -59,12 +47,10 @@ const AboutPage = ({ data }) => {
   return (
     <Layout>
       <AboutPageTemplate
-        // contentComponent={HTMLContent}
         title={frontmatter.title}
         image={frontmatter.image}
         about_us={frontmatter.about_us}
-        origin_story={frontmatter.origin_story}
-        bios={frontmatter.bios}
+        team_bios={frontmatter.team_bios}
       />
     </Layout>
   );
@@ -95,19 +81,18 @@ export const aboutPageQuery = graphql`
           title
           description
         }
-        origin_story {
-          origin_title
-          description
-        }
-        bios {
-          image {
-            childImageSharp {
-              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+        team_bios {
+          title
+          bios {
+            image {
+              childImageSharp {
+                gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+              }
             }
+            name
+            position
+            text
           }
-          name
-          position
-          text
         }
       }
     }
