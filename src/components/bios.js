@@ -1,9 +1,9 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { getImage } from 'gatsby-plugin-image';
-import { navigate } from 'gatsby';
+// import { navigate } from 'gatsby';
 
 const BioList = ({ bios }) => {
   return (
