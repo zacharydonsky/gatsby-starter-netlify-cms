@@ -19,7 +19,7 @@ const ResearchReportThumbs = ({ researchReports }) => {
               <div className="subtitle is-6">{item.author}</div>
               <div className="content">{item.summary}</div>
             </div>
-            <a href={item.file.publicURL}>
+            <a href={item.file}>
               <div className="button">Download</div>
             </a>
           </div>
@@ -36,9 +36,7 @@ ResearchReportThumbs.prototypes = {
       title: PropTypes.string,
       author: PropTypes.string,
       summary: PropTypes.string,
-      file: PropTypes.shape({
-        publicURL: PropTypes.string,
-      }),
+      file: PropTypes.string,
     })
   ),
 };

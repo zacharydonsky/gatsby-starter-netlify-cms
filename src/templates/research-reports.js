@@ -69,9 +69,7 @@ export const researchReportsPageQuery = graphql`
           title
           author
           summary
-          file {
-            publicURL
-          }
+          file
         }
       }
     }
