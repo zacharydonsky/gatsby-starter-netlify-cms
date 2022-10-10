@@ -11,7 +11,6 @@ researchReports:
       thirty-six people with current or recent lived experience of unsheltered
       homelessness.
     file: /research-reports/Survey-Persons-with-Lived-Experience.pdf
-research-reports:
   - thumbnail: /img/screen-shot-2022-10-09-at-6.41.57-pm.png
     title: HATS Program Overview
     author: HATS

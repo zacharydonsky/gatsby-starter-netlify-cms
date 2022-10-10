@@ -135,7 +135,7 @@ collections:
           - { label: Image, name: image, widget: image }
           - {
               label: Report,
-              name: 'research-reports',
+              name: 'researchReports',
               widget: list,
               fields:
                 [
