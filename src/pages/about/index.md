@@ -23,16 +23,6 @@ about_us:
 
     This includes two trained staff who will be seconded to the site by Wesley Urban Ministries.
 team_bios:
-  title: Our Leadership Team
-  bios:
-    - name: Julia Kollek
-      position: President
-      text: Julia is a gifted interviewer with years of experience in broadcast media.
-        She's helped researchers and academics publish in top academic journals,
-        and professionals write books that showcase their expertise.
-      image: /img/logo.svg
-    - name: Tom Cooper
-      position: Treasurer
-      image: /img/logo.svg
-      text: " The Hamilton Roundtable for Poverty Reduction – Director, Tom Cooper"
+  title: .
+  bios: []
 ---
