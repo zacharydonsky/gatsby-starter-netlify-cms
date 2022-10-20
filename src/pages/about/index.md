@@ -6,7 +6,10 @@ image: /img/row-of-tiny-houses.jpeg
 about_us:
   title: Who Are We
   description: >-
-    HATS is a grassroots, incorporated non-for profit that aims to ease the homelessness crisis in Hamilton, where the current shelter system is often at full capacity and unable to meet the individual needs of a number of homeless persons. 
+    HATS is a grassroots, incorporated non-for profit that aims to ease the
+    homelessness crisis in Hamilton, where the current shelter system is often
+    at full capacity and unable to meet the individual needs of a number of
+    homeless persons. 
 
 
     Our organization is currently funded solely by donations and grants. 
@@ -19,15 +22,17 @@ about_us:
 
 
     This includes two trained social workers who will be seconded to the site by Wesley Urban Ministries.empowerment.
-
 team_bios:
   title: Our Leadership Team
   bios:
     - name: Julia Kollek
-      position: Director
-      text:
-        Julia is a gifted interviewer with years of experience in broadcast media.
+      position: President
+      text: Julia is a gifted interviewer with years of experience in broadcast media.
         She's helped researchers and academics publish in top academic journals,
         and professionals write books that showcase their expertise.
-      image: /img/juliaphoto.png
+      image: /img/logo.svg
+    - name: Tom Cooper
+      position: Treasurer
+      image: /img/logo.svg
+      text: H﻿ATS Treasurer
 ---
