@@ -18,7 +18,7 @@ about_us:
     We're  governed by a corporate board and steering committee that includes professionals with years of non-profit experience, serving the unhoused and marginalized members of the Hamilton community.
 
 
-    We’ve trained more than 50 volunteers, obtained contractors, secured donations and insurance, and coordinated support service delivery with existing agencies.
+    We’ve trained more than 50 volunteers, secured donations and insurance, and coordinated support service delivery with existing agencies.
 
 
     This includes two trained social workers who will be seconded to the site by Wesley Urban Ministries.
