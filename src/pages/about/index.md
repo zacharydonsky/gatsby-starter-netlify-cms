@@ -21,7 +21,7 @@ about_us:
     We’ve trained more than 50 volunteers, secured donations and insurance, and coordinated support service delivery with existing agencies.
 
 
-    This includes two trained social workers who will be seconded to the site by Wesley Urban Ministries.
+    This includes two trained staff who will be seconded to the site by Wesley Urban Ministries.
 team_bios:
   title: Our Leadership Team
   bios:
