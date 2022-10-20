@@ -34,5 +34,5 @@ team_bios:
     - name: Tom Cooper
       position: Treasurer
       image: /img/logo.svg
-      text: H﻿ATS Treasurer
+      text: " The Hamilton Roundtable for Poverty Reduction – Director, Tom Cooper"
 ---
