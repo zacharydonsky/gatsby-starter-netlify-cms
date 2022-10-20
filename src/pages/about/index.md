@@ -4,7 +4,7 @@ path: /about
 title: About Us
 image: /img/row-of-tiny-houses.jpeg
 about_us:
-  title: Who Are We
+  title: Who We Are
   description: >-
     HATS is a grassroots, incorporated non profit that aims to ease the
     homelessness crisis in Hamilton, where the current shelter system is often
