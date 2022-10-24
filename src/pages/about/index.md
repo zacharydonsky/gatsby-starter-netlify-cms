@@ -50,4 +50,10 @@ team_bios:
       position: Lawyer
       image: /img/logo.svg
       text: Hamilton Community Legal Clinic
+    - name: "Tony D'Amato Stortz "
+      position: Consultant to HATS
+      text: "Site Superintendent at KW’s Better Tent City: founder of BetterStreet,
+        working with communities to improve the lives of those experiencing
+        homelessness."
+      image: /img/logo.svg
 ---
