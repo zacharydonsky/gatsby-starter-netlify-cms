@@ -75,4 +75,10 @@ team_bios:
       text: Past Chair of the Ontario Bar Association’s Constitutional, Civil
         Liberties and Human Rights Section and sits on the executive of the
         Canadian Bar Association’s Constitutional and Human Rights Section.
+    - name: "Art Samson "
+      position: former school Principal, teacher and football coach
+      image: /img/logo.svg
+      text: "Catholic school board trustee, Town of Dundas Councillor, Hamilton City
+        Councillor: supporter of Routes Youth Centre and the Dundas Junior
+        Hockey Club."
 ---
