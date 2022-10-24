@@ -81,4 +81,8 @@ team_bios:
       text: "Catholic school board trustee, Town of Dundas Councillor, Hamilton City
         Councillor: supporter of Routes Youth Centre and the Dundas Junior
         Hockey Club."
+    - name: "Don Seymour "
+      position: Executive Director
+      image: /img/logo.svg
+      text: Wesley Urban Ministries
 ---
