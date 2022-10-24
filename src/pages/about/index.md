@@ -69,4 +69,10 @@ team_bios:
       position: Executive Director
       image: /img/logo.svg
       text: Social Planning and Research Council of Hamilton.
+    - name: "Wade Poziomka "
+      position: Human Rights and Employment Lawyer, Ross & McBride
+      image: /img/logo.svg
+      text: Past Chair of the Ontario Bar Association’s Constitutional, Civil
+        Liberties and Human Rights Section and sits on the executive of the
+        Canadian Bar Association’s Constitutional and Human Rights Section.
 ---
