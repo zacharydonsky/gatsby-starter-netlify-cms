@@ -61,4 +61,8 @@ team_bios:
       image: /img/logo.svg
       text: "former President, Hamilton Chamber of Commerce: elder at Chedoke
         Presbyterian Church."
+    - name: "Bill Johnston "
+      position: Affordable Housing Team, First Unitarian Church of Hamilton
+      image: /img/logo.svg
+      text: a former city hall reporter and an editor at the Hamilton Spectator.
 ---
