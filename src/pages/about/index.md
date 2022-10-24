@@ -40,4 +40,10 @@ team_bios:
       image: /img/logo.svg
       text: "Retired elementary school teacher of 35 years: Chair of Flamborough food
         bank."
+    - name: Dan Bednis
+      position: Chair HATS Governance Committee
+      text: "Electronics technologist: 24 years in senior management at BELL: 15 years
+        in Management Consulting: 11 years in Real Estate: Member of Carlisle
+        Optimist Club for youth initiatives."
+      image: /img/logo.svg
 ---
