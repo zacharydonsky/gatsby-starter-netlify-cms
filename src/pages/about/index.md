@@ -30,4 +30,9 @@ team_bios:
       text: "Academic Editor: Community Activist, and Organizer:  founder, Kehila
         Heschel School."
       image: /img/logo.svg
+    - name: Tom Cooper
+      position: Treasurer, HATS
+      text: "Director, Hamilton Roundtable for Poverty Reduction: former columnist,
+        Hamilton Spectator."
+      image: /img/logo.svg
 ---
