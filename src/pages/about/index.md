@@ -65,4 +65,8 @@ team_bios:
       position: Affordable Housing Team, First Unitarian Church of Hamilton
       image: /img/logo.svg
       text: a former city hall reporter and an editor at the Hamilton Spectator.
+    - name: "Kim Martin "
+      position: Executive Director
+      image: /img/logo.svg
+      text: Social Planning and Research Council of Hamilton.
 ---
