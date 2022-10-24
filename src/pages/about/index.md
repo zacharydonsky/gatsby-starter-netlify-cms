@@ -56,4 +56,9 @@ team_bios:
         working with communities to improve the lives of those experiencing
         homelessness."
       image: /img/logo.svg
+    - name: "Ed Fothergill "
+      position: President, Fothergill Planning & Development Inc
+      image: /img/logo.svg
+      text: "former President, Hamilton Chamber of Commerce: elder at Chedoke
+        Presbyterian Church."
 ---
