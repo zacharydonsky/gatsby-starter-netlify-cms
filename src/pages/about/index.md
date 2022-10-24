@@ -46,4 +46,8 @@ team_bios:
         in Management Consulting: 11 years in Real Estate: Member of Carlisle
         Optimist Club for youth initiatives."
       image: /img/logo.svg
+    - name: Stephanie Cox
+      position: Lawyer
+      image: /img/logo.svg
+      text: Hamilton Community Legal Clinic
 ---
