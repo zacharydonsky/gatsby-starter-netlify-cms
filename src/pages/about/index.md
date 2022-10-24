@@ -35,4 +35,9 @@ team_bios:
       text: "Director, Hamilton Roundtable for Poverty Reduction: former columnist,
         Hamilton Spectator."
       image: /img/logo.svg
+    - name: Bev Bednis, BA and M.Ed
+      position: HATS Volunteer Co-ordinator
+      image: /img/logo.svg
+      text: "Retired elementary school teacher of 35 years: Chair of Flamborough food
+        bank."
 ---
