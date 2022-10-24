@@ -85,4 +85,9 @@ team_bios:
       position: Executive Director
       image: /img/logo.svg
       text: Wesley Urban Ministries
+    - name: Ted Van Egdom
+      position: Chair HATS Fundraising Committee
+      image: /img/logo.svg
+      text: "Senior Vice President Operations, EcoSynthetix Inc: Member, Capital
+        Campaign Board, Youth Unlimited GTA."
 ---
