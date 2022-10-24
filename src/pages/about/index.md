@@ -24,5 +24,10 @@ about_us:
     This includes two trained staff who will be seconded to the site by Wesley Urban Ministries.
 team_bios:
   title: .
-  bios: []
+  bios:
+    - name: "Julia Kollek "
+      position: President, HATS
+      text: "Academic Editor: Community Activist, and Organizer:  founder, Kehila
+        Heschel School."
+      image: /img/logo.svg
 ---
