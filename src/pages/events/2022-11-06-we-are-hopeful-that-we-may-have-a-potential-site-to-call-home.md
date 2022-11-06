@@ -20,4 +20,4 @@ description: >-
   https://www.gofundme.com/f/hamiltontinyshelters
 featuredimage: /img/314554798_123083140566395_4562201072643201840_n.jpg
 ---
-C﻿lick to read the article and for more on our GoFundMe campaign.
+[C﻿lick to read the article](https://www.thespec.com/news/hamilton-region/2022/11/04/homeless-housing-tiny-homes.html) and  for more on our [GoFundMe campaign](https://www.gofundme.com/f/hamiltontinyshelters).
