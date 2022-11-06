@@ -12,5 +12,7 @@ featuredimage: /img/314554798_123083140566395_4562201072643201840_n.jpg
 ---
 Read the Article: 
 https://www.thespec.com/news/hamilton-region/2022/11/04/homeless-housing-tiny-homes.html
+
+
 GoFundMe:
 https://www.gofundme.com/f/hamiltontinyshelters
