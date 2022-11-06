@@ -8,11 +8,16 @@ description: >-
 
 
   We also want to thank the continued support, as mentioned in this article, not only from all of your donations but from the students of Westdale Secondary School with their work completed on building one of the cabins. 
+
+
+  Read the Article: 
+
+  https://www.thespec.com/news/hamilton-region/2022/11/04/homeless-housing-tiny-homes.html
+
+
+  GoFundMe:
+
+  https://www.gofundme.com/f/hamiltontinyshelters
 featuredimage: /img/314554798_123083140566395_4562201072643201840_n.jpg
 ---
-Read the Article: 
-https://www.thespec.com/news/hamilton-region/2022/11/04/homeless-housing-tiny-homes.html
-
-
-GoFundMe:
-https://www.gofundme.com/f/hamiltontinyshelters
+C﻿lick to read the article and for more on our GoFundMe campaign.
