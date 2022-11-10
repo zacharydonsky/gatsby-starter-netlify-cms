@@ -92,7 +92,7 @@ team_bios:
         Campaign Board, Youth Unlimited GTA."
     - name: Sheryl Green
       position: Hamilton Regional Indian Centre (HRIC).
-      image: /img/hats-logo-temp-3.png
+      image: /img/logo.svg
       text: >-
         Sheryl, Oneida from Six Nations, Bear Clan is the Program Manager for
         the Housing & Homelessness Supports and Services Department at the
