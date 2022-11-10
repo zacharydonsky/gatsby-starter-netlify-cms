@@ -90,4 +90,14 @@ team_bios:
       image: /img/logo.svg
       text: "Senior Vice President Operations, EcoSynthetix Inc: Member, Capital
         Campaign Board, Youth Unlimited GTA."
+    - name: Sheryl Green
+      position: Hamilton Regional Indian Centre (HRIC).
+      image: /img/hats-logo-temp-3.png
+      text: >-
+        Sheryl, Oneida from Six Nations, Bear Clan is the Program Manager for
+        the Housing & Homelessness Supports and Services Department at the
+        Hamilton Regional Indian Centre (HRIC). 
+
+
+        Sheryl works to create equitable opportunities for Indigenous Peoples of our community who are precariously housed, unsheltered, or at risk of homelessness.
 ---
