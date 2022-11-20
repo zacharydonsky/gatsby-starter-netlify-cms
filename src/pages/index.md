@@ -18,8 +18,8 @@ intro:
       link: /donate
       id: donate-button
       text: >
-        Giving a donation is a great way to support this initiative, and to make
-        a big difference.
+        All donations receive a tax receipt through our charitable partner, the
+        Social Planning and Research Council of Hamilton.
     - image: /img/volunteer-logo.png
       link: /volunteer
       id: volunteer-button
