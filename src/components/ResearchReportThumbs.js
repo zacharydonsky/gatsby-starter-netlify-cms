@@ -5,6 +5,12 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 import { getImage } from 'gatsby-plugin-image';
 // import { navigate } from 'gatsby';
 
+function strip_static_from_path(path) {
+  let report_path = path;
+  report_path = report_path.split('/');
+  report_path = report_path[2];
+  return report_path;
+}
 const ResearchReportThumbs = ({ researchReports }) => {
   return (
     <div className="columns is-multiline">
@@ -19,7 +25,7 @@ const ResearchReportThumbs = ({ researchReports }) => {
               <div className="subtitle is-6">{item.author}</div>
               <div className="content">{item.summary}</div>
             </div>
-            <a href={item.file}>
+            <a href={strip_static_from_path(item.file)}>
               <div className="button">Download</div>
             </a>
           </div>
