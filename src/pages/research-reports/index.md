@@ -10,7 +10,7 @@ researchReports:
     summary: The Hamilton Alliance for Tiny Shelters conducted interviews of
       thirty-six people with current or recent lived experience of unsheltered
       homelessness.
-    file: /research-reports/Survey-Persons-with-Lived-Experience.pdf
+    file: /static/research-reports/Survey-Persons-with-Lived-Experience.pdf
     Thumbnail: /img/logo.svg
   - Thumbnail: /img/2022-11-30_21-39.png
     file: /static/research-reports/ward_3_event_nov_20_2022.pdf
@@ -18,4 +18,15 @@ researchReports:
     summary: A presentation by HATS given on Nov 17th 2022 to the community of
       Hamilton Ward 3
     author: HATS
+  - file: /static/research-reports/Program-Overview.pdf
+    Thumbnail: /img/2022-12-01_00-30.png
+    title: Program Details
+    author: HATS
+    summary: Overview of HATS and it's program offerings.
+  - file: /static/research-reports/HATS-RESEARCH-REPORT-April-2022.pdf
+    title: HATS Research Report April 2022
+    author: Bill Johnston
+    Thumbnail: /img/2022-12-01_00-32.png
+    summary: A research report describing HATS research and methodology around cabin
+      communities for people experiencing homelessness.
 ---
