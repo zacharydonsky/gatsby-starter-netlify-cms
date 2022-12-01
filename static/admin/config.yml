@@ -169,7 +169,7 @@ collections:
               widget: list,
               fields:
                 [
-                  { label: Thumbnail, name: Thumbnail, widget: image },
+                  { label: thumbnail, name: thumbnail, widget: image },
                   { label: Title, name: title, widget: string },
                   { label: Author, name: author, widget: string },
                   { label: Summary, name: summary, widget: string },
