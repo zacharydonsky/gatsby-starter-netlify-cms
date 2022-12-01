@@ -8,7 +8,7 @@ export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <FullWidthImage title="Events" />
+        <FullWidthImage title="Latest News" />
         <section className="section">
           <div className="container">
             <div className="content">

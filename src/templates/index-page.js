@@ -40,12 +40,10 @@ export const IndexPageTemplate = ({
         <div className="container">
           <Features gridItems={intro.blurbs} />
           <div className="column is-12">
-            <h3 className="has-text-weight-semibold is-size-2">
-              Latest News and Events
-            </h3>
+            <h3 className="has-text-weight-semibold is-size-2">Latest News</h3>
             <BlogRoll />
             <div className="column is-12 has-text-centered">
-              <Link className="btn" to="/events">
+              <Link className="btn" to="/latest_news">
                 Read more
               </Link>
             </div>

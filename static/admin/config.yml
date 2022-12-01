@@ -13,9 +13,9 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'events'
-    label: 'Events'
-    folder: 'src/pages/events'
+  - name: 'latest_news'
+    label: 'latest_news'
+    folder: 'src/pages/latest_news'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
