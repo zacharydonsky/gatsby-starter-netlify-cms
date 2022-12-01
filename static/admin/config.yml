@@ -177,7 +177,7 @@ collections:
                     label: File,
                     name: file,
                     widget: file,
-                    media_folder: /research-reports,
+                    media_folder: /static/research-reports,
                   },
                 ],
             }
