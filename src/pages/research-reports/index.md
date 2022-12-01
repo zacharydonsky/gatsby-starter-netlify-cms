@@ -13,7 +13,7 @@ researchReports:
     file: /research-reports/Survey-Persons-with-Lived-Experience.pdf
     Thumbnail: /img/logo.svg
   - Thumbnail: /img/2022-11-30_21-39.png
-    file: /research-reports/ward_3_event_nov_20_2022.pdf
+    file: /static/research-reports/ward_3_event_nov_20_2022.pdf
     title: Ward Hats Presentation
     summary: A presentation by HATS given on Nov 17th 2022 to the community of
       Hamilton Ward 3
