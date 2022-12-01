@@ -7,8 +7,9 @@ import { getImage } from 'gatsby-plugin-image';
 
 function strip_static_from_path(path) {
   let report_path = path;
-  report_path = report_path.split('/');
-  report_path = report_path[2];
+  report_path = report_path.split('research-reports/');
+  console.log(report_path);
+  report_path = report_path[1];
   return report_path;
 }
 const ResearchReportThumbs = ({ researchReports }) => {
