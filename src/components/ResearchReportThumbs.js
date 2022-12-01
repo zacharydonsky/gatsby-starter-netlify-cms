@@ -6,9 +6,11 @@ import { getImage } from 'gatsby-plugin-image';
 // import { navigate } from 'gatsby';
 
 function strip_static_from_path(path) {
+  // There seems to be a difference in path between local dev and deployed
+  // production for referencing a report_path. For now I'm just going to set
+  // it to what is correct for production.
   let report_path = path;
-  report_path = report_path.split('research-reports/');
-  console.log(report_path);
+  report_path = report_path.split('static/');
   report_path = report_path[1];
   return report_path;
 }
