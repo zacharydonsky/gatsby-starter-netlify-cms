@@ -23,7 +23,7 @@ about_us:
 
     This includes two trained staff who will be seconded to the site by Wesley Urban Ministries.
 team_bios:
-  title: .
+  title: ""
   bios:
     - name: "Julia Kollek "
       position: President, HATS
