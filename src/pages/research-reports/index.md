@@ -34,4 +34,9 @@ researchReports:
     summary: "An update to volunteers and donors from the HATS Leadership Team
       December 2022. "
     file: /static/research-reports/hats-dec-19th-update-2022.pdf
+  - thumbnail: /img/letter.png
+    title: Letter To Your City Councillor
+    author: HATS
+    summary: "A letter to your city councillor. "
+    file: /static/research-reports/letter-to-city-councillor.docx
 ---
