@@ -30,7 +30,7 @@ researchReports:
       communities for people experiencing homelessness.
   - thumbnail: /img/hats-cover1.png
     title: Volunteer & Donor Update
-    author: HATS Board of Directors
+    author: HATS
     summary: "An update to volunteers and donors from the HATS Leadership Team
       December 2022. "
     file: /static/research-reports/hats-dec-19th-update-2022.pdf
