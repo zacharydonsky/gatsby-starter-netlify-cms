@@ -26,7 +26,12 @@ researchReports:
     title: HATS Research Report April 2022
     author: Bill Johnston
     thumbnail: /img/2022-12-01_00-32.png
-    summary:
-      A research report describing HATS research and methodology around cabin
+    summary: A research report describing HATS research and methodology around cabin
       communities for people experiencing homelessness.
+  - thumbnail: /img/hats-cover1.png
+    title: Volunteer & Donor Update
+    author: HATS Board of Directors
+    summary: "An update to volunteers and donors from the HATS Leadership Team
+      December 2022. "
+    file: /static/research-reports/hats-dec-19th-update-2022.pdf
 ---
