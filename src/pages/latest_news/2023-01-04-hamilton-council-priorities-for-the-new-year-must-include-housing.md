@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Hamilton council priorities for the new year must include housing.
 date: 2023-01-04T17:55:41.773Z
 description: Hamilton Spectator Article by Margaret Shkimba
-featuredimage: /img/events-logo.svg
+featuredimage: /img/hats5.png
 ---
 New year. New council. New beginnings.
 
