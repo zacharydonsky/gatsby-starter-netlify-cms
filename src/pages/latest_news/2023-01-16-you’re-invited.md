@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: You’re invited!
+title: You’re invited! Hamilton Aerial Group & Hamilton Winterfest Human Kind Cabaret!
 date: 2023-01-16T20:42:36.869Z
 description: Hamilton Aerial Group & Hamilton Winterfest Human Kind Cabaret!
 featuredimage: /img/capture.png
