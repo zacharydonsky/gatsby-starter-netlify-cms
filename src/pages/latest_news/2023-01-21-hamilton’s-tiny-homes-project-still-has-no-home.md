@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Hamilton’s tiny homes project still has no home
+title: Hamilton’s tiny homes project still has no home.
 date: 2023-01-21T16:22:27.647Z
 description: Hamilton Spectator January 21 2023
 featuredimage: /img/spec-jan-20.png
