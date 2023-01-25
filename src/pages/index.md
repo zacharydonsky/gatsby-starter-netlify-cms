@@ -27,7 +27,7 @@ intro:
       text: >
         There are lots of ways to help - from fundraising to handy work and
         preparing meals.
-    - image: /img/events-logo.png
+    - image: /img/newsletter-logo.png
       link: /latest_news
       id: latest_news-button
       text: >
