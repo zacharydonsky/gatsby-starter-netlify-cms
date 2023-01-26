@@ -18,18 +18,21 @@ intro:
     - image: /img/donate-logo.png
       link: /donate
       id: donate-button
+      modal_is_active: false
       text: >
         All donations receive a tax receipt through our charitable partner, the
         Social Planning and Research Council of Hamilton.
     - image: /img/volunteer-logo.png
       link: /volunteer
       id: volunteer-button
+      modal_is_active: false
       text: >
         There are lots of ways to help - from fundraising to handy work and
         preparing meals.
     - image: /img/newsletter-logo.png
       link: /latest_news
-      id: latest_news-button
+      modal_is_active: false
+      id: newsletter-button
       text: >
         Sign up for our newsletter and get early alerts about our upcoming
         events.

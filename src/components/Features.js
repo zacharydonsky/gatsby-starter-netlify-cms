@@ -4,6 +4,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import { Link } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { getImage } from 'gatsby-plugin-image';
+import IFrameModal from './iframe-modal';
 import DonateModal from './donate-form';
 import { navigate } from 'gatsby';
 
@@ -16,6 +17,7 @@ const handleClick = function (item) {};
 
 const FeatureGrid = ({ gridItems }) => {
   const [donate_is_modal, set_donate_is_modal] = React.useState(false);
+  
   const handleClick = (item) => {};
   return (
     <div>
@@ -23,6 +25,13 @@ const FeatureGrid = ({ gridItems }) => {
         is_modal={donate_is_modal}
         click_method={() => set_donate_is_modal(!donate_is_modal)}
       />
+      {gridItems.map((item) => (
+        <div>
+          <IFrameModal 
+            iframe={item.iframe_link}
+          />
+        </div>
+      ))}
       <div className="columns is-multiline">
         {gridItems.map((item) => (
           <div key={item.text} className="column is-4">
@@ -62,6 +71,7 @@ FeatureGrid.propTypes = {
       link: PropTypes.string,
       text: PropTypes.string,
       id: PropTypes.string,
+      modal_is_active: PropTypes.bool,
     })
   ),
 };
