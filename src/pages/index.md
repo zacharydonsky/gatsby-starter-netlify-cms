@@ -16,22 +16,22 @@ description: >
 intro:
   blurbs:
     - image: /img/donate-logo.png
+      feature_type: modal
       link: /donate
       id: donate-button
-      modal_is_active: false
       text: >
         All donations receive a tax receipt through our charitable partner, the
         Social Planning and Research Council of Hamilton.
     - image: /img/volunteer-logo.png
+      feature_type: link
       link: /volunteer
       id: volunteer-button
-      modal_is_active: false
       text: >
         There are lots of ways to help - from fundraising to handy work and
         preparing meals.
     - image: /img/newsletter-logo.png
-      link: /latest_news
-      modal_is_active: false
+      feature_type: modal
+      link: https://hamiltonpoverty.us14.list-manage.com/subscribe?u=d61456455bd43a35f1c9a6677&id=2d18eac361
       id: newsletter-button
       text: >
         Sign up for our newsletter and get early alerts about our upcoming

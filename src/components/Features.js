@@ -13,12 +13,10 @@ const state = {
   donate_is_modal: false,
 };
 
-const handleClick = function (item) {};
-
 const FeatureGrid = ({ gridItems }) => {
   const [donate_is_modal, set_donate_is_modal] = React.useState(false);
-  
-  const handleClick = (item) => {};
+  const [modal_is_active, set_modal_state] = React.useState(false);
+
   return (
     <div>
       <DonateModal
@@ -27,9 +25,16 @@ const FeatureGrid = ({ gridItems }) => {
       />
       {gridItems.map((item) => (
         <div>
-          <IFrameModal 
-            iframe={item.iframe_link}
-          />
+          { item.feature_type == "modal" &&   
+            <IFrameModal 
+              iframe_url={item.link}
+              id={"modal_" + item.id}
+              // is_active initializes to false, but gets toggled by Feature Grid items
+              // and by the modal's background and 'x' button
+              is_active={modal_is_active} 
+              click_method={set_modal_state}
+            />
+          }
         </div>
       ))}
       <div className="columns is-multiline">
@@ -42,7 +47,11 @@ const FeatureGrid = ({ gridItems }) => {
                   if (item.id === 'donate-button') {
                     // toggle wether donate modal 'is' active
                     set_donate_is_modal(!donate_is_modal);
-                  } else {
+                  } 
+                  else if (item.feature_type === 'modal'){
+                    console.log("Fart");
+                  }
+                  else {
                     navigate(item.link);
                   }
                 }}
@@ -71,7 +80,7 @@ FeatureGrid.propTypes = {
       link: PropTypes.string,
       text: PropTypes.string,
       id: PropTypes.string,
-      modal_is_active: PropTypes.bool,
+      feature_type: PropTypes.string,
     })
   ),
 };

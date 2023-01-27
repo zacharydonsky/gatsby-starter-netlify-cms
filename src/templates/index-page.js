@@ -117,7 +117,7 @@ export const pageQuery = graphql`
             }
             id
             link
-            modal_is_active
+            feature_type
             text
           }
         }
