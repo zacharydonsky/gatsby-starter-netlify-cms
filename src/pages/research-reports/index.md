@@ -22,12 +22,6 @@ researchReports:
     title: Program Details
     author: HATS
     summary: Overview of HATS and it's program offerings.
-  - file: /static/research-reports/HATS-RESEARCH-REPORT-April-2022.pdf
-    title: HATS Research Report April 2022
-    author: Bill Johnston
-    thumbnail: /img/2022-12-01_00-32.png
-    summary: A research report describing HATS research and methodology around cabin
-      communities for people experiencing homelessness.
   - thumbnail: /img/hats-cover1.png
     title: Volunteer & Donor Update
     author: HATS
@@ -39,4 +33,9 @@ researchReports:
     author: HATS
     summary: "A letter to your city councillor. "
     file: /static/research-reports/letter-to-city-councillor.docx
+  - title: "HATS Research Report "
+    author: Prepared by Bill Johnston for HATS
+    summary: July 3, 2022, updated November 27, 2022 Prepared by Bill Johnston for HATS
+    thumbnail: /img/bill-cabin.png
+    file: /static/research-reports/research-report-final.pdf
 ---
