@@ -17,7 +17,7 @@ intro:
   blurbs:
     - image: /img/donate-logo.png
       feature_type: modal
-      link: /donate
+      link: https://www.canadahelps.org/en/dne/73921
       id: donate-button
       text: >
         All donations receive a tax receipt through our charitable partner, the
