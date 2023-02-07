@@ -1,5 +1,5 @@
-import React from "react";
-import Layout from "../../components/Layout";
+import React from 'react';
+import Layout from '../../components/Layout';
 
 // eslint-disable-next-line
 export default () => (
@@ -8,7 +8,7 @@ export default () => (
       <div className="container">
         <div className="content">
           <h1>Thank you!</h1>
-          <p>This is a custom thank you page for form submissions</p>
+          <p>Thanks for contacting HATS!</p>
         </div>
       </div>
     </section>
