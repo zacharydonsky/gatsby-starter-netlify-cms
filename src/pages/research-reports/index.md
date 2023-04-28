@@ -10,7 +10,7 @@ researchReports:
     summary: The Hamilton Alliance for Tiny Shelters conducted interviews of
       thirty-six people with current or recent lived experience of unsheltered
       homelessness.
-    file: /static/research-reports/Survey-Persons-with-Lived-Experience.pdf
+    file: /static/research-reports/hats-pwle-final-report-1-.pdf
   - thumbnail: /img/2022-11-30_21-39.png
     file: /static/research-reports/ward_3_event_nov_20_2022.pdf
     title: Neighborhood Ward 3 Hats Presentation
