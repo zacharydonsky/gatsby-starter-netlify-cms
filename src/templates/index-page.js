@@ -117,6 +117,7 @@ export const pageQuery = graphql`
             }
             id
             link
+            feature_type
             text
           }
         }

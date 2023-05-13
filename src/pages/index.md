@@ -16,20 +16,23 @@ description: >
 intro:
   blurbs:
     - image: /img/donate-logo.png
-      link: /donate
+      feature_type: modal
+      link: https://www.canadahelps.org/en/dne/73921
       id: donate-button
       text: >
         All donations receive a tax receipt through our charitable partner, the
         Social Planning and Research Council of Hamilton.
     - image: /img/volunteer-logo.png
+      feature_type: link
       link: /volunteer
       id: volunteer-button
       text: >
         There are lots of ways to help - from fundraising to handy work and
         preparing meals.
-    - image: /img/events-logo.png
-      link: /latest_news
-      id: latest_news-button
+    - image: /img/newsletter-logo.png
+      feature_type: modal
+      link: https://hamiltonpoverty.us14.list-manage.com/subscribe?u=d61456455bd43a35f1c9a6677&id=2d18eac361
+      id: newsletter-button
       text: >
         Sign up for our newsletter and get early alerts about our upcoming
         events.

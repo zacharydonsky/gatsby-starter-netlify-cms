@@ -2,6 +2,7 @@ import * as React from 'react';
 import { navigate } from 'gatsby-link';
 import Layout from '../../components/Layout';
 import { Checkbox, CheckboxGroup } from '@chakra-ui/react';
+import IFrameModalButton from '../../components/iframe_modal_button';
 function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -101,20 +102,19 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="field">
-                  <label className="label" htmlFor={'newsletter'}>
-                    I consent to be contacted via newsletter as well
-                    <input
-                      type="checkbox"
-                      id={'newsletter'}
-                      name="newsletter"
-                      onChange={this.handleChange}
-                    />
-                  </label>
-                </div>
-                <div className="field">
-                  <button className="button is-link" type="submit">
-                    Send
-                  </button>
+                  <nav className="navbar">
+                    <div className="navbar-item">
+                      <IFrameModalButton
+                        text="Subscribe To Our Newsletter"
+                        url="https://hamiltonpoverty.us14.list-manage.com/subscribe?u=d61456455bd43a35f1c9a6677&id=2d18eac361"
+                      />
+                    </div>
+                    <div className="navbar-item">
+                      <button className="button is-link" type="submit">
+                        Send
+                      </button>
+                    </div>
+                  </nav>
                 </div>
               </form>
             </div>
