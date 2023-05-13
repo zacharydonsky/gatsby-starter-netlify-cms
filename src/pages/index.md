@@ -13,6 +13,10 @@ description: >
   Giving someone a safe, warm, place they can call home is one of the first
   stages in healing the whole person.  Hamilton Alliance for Tiny Shelters seeks
   to empower people experiencing homelessness.
+featureBanner:
+  title: a banner heading
+  subtitle: a banner subheading
+
 intro:
   blurbs:
     - image: /img/donate-logo.png

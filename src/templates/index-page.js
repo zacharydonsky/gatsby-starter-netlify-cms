@@ -8,12 +8,14 @@ import Layout from '../components/Layout';
 import Features from '../components/Features';
 import BlogRoll from '../components/BlogRoll';
 import FullWidthImage from '../components/FullWidthImage';
+import FeatureBanner from '../components/FeatureBanner';
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
   image,
   title,
   subheading,
+  featureBanner,
   mainpitch,
   description,
   intro,
@@ -36,6 +38,10 @@ export const IndexPageTemplate = ({
           </div>
         </section>
       </div>
+      <FeatureBanner
+        title={featureBanner.title}
+        subtitle={featureBanner.subtitle}
+      />
       <section className="section">
         <div className="container">
           <Features gridItems={intro.blurbs} />
@@ -58,6 +64,7 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   subheading: PropTypes.string,
+  featureBanner: PropTypes.object,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
@@ -74,6 +81,7 @@ const IndexPage = ({ data }) => {
         image={frontmatter.image}
         title={frontmatter.title}
         subheading={frontmatter.subheading}
+        featureBanner={frontmatter.featureBanner}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -106,6 +114,10 @@ export const pageQuery = graphql`
         mainpitch {
           title
           description
+        }
+        featureBanner {
+          title
+          subtitle
         }
         description
         intro {

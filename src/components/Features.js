@@ -14,14 +14,8 @@ const state = {
 };
 
 const FeatureGrid = ({ gridItems }) => {
-  // const [donate_is_modal, set_donate_is_modal] = React.useState(false);
-
   return (
     <div>
-      {/* <DonateModal
-        is_modal={donate_is_modal}
-        click_method={() => set_donate_is_modal(!donate_is_modal)}
-      /> */}
       <div className="columns is-multiline">
         {gridItems.map((item) => (
           <div key={item.text} className="column is-4">
