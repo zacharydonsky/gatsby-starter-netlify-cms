@@ -65,6 +65,25 @@ collections:
                 ],
             }
           - {
+            label: Feature Banner,
+            name: featureBanner,
+            widget: object,
+            fields:
+              [
+                {
+                  label: Enabled?,
+                  name: enabled,
+                  widget: boolean
+                },
+                {
+                  label: Title, name: title, widget: string
+                },
+                {
+                  label: Subtitle, name: subtitle, widget: string
+                }
+              ]
+            }
+          - {
               label: Intro,
               name: intro,
               widget: object,

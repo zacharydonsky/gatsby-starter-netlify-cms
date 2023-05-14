@@ -39,6 +39,7 @@ export const IndexPageTemplate = ({
         </section>
       </div>
       <FeatureBanner
+        enabled={featureBanner.enabled}
         title={featureBanner.title}
         subtitle={featureBanner.subtitle}
       />
@@ -118,6 +119,7 @@ export const pageQuery = graphql`
         featureBanner {
           title
           subtitle
+          enabled
         }
         description
         intro {

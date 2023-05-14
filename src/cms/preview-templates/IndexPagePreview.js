@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { IndexPageTemplate } from '../../templates/index-page';
+import FeatureBanner from '../../components/FeatureBanner';
 
 const IndexPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS();
@@ -13,6 +14,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         description={data.description}
         intro={data.intro || { blurbs: [] }}
         mainpitch={data.mainpitch}
+        featureBanner={data.featureBanner}
       />
     );
   } else {

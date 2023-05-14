@@ -14,8 +14,9 @@ description: >
   stages in healing the whole person.  Hamilton Alliance for Tiny Shelters seeks
   to empower people experiencing homelessness.
 featureBanner:
-  title: a banner heading
-  subtitle: a banner subheading
+  title: Join us... HATS OPEN HOUSE - Saturday June 3, 1-3pm
+  subtitle: The First Unitarian Church of Hamilton, 170 Dundurn St S.
+  enabled: true
 
 intro:
   blurbs:
