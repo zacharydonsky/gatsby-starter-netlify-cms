@@ -80,7 +80,9 @@ collections:
                 },
                 {
                   label: Subtitle, name: subtitle, widget: string
-                }
+                },
+                { label: Link, name: link, widget: string },
+                { label: Link Title, name: link_title, widget: string }
               ]
             }
           - {
