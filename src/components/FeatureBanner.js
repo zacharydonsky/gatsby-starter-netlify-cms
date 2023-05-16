@@ -11,10 +11,8 @@ export default function FeatureBanner(props) {
       <div className="max-width feature-banner section">
         <div className="container">
           <p className="title has-text-centered">{props.title}</p>
-          <div className="container">
-            <div className="subtitle pt-6 has-text-centered">
-              {props.subtitle}
-            </div>
+          <div className="subtitle pt-6 has-text-centered">
+            {props.subtitle}
           </div>
           <div className="section">
             <div className="columns is-centered">
