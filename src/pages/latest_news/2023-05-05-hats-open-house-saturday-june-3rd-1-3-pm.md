@@ -41,3 +41,5 @@ The First Unitarian Church of Hamilton** We are grateful to the members of The F
 **Terra Green house** - donated a gift card to be used toward furnishing the Tiny Home model for the Open House. www.terragreenhouses.com
 
 **Nellie James Gourmet To Go -** Chef Ken To support HATS initiative and “CALL TO ACTION” - Chef Ken and Jacquie have designed a special menu where we can come together as neighbours and friends  over a meal and discuss how we can be part of the solution to the housing crisis. They are donating a portion of this to-go meal for the HATS initiative.  Sign up for this limited to go meal at the event or by going to their websites: **[www.nelliejames.com](http://www.nelliejames.com)**
+
+**Universal Concepts Staging Solutions** - Sincere thanks goes to Universal Concepts Staging Solutions for providing complimentary staging for the HATS Tiny model home. [www.universalconcepts.ca](www.universalconcepts.ca)
