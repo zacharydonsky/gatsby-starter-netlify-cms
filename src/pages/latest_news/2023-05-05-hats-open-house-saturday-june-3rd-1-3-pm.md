@@ -26,6 +26,7 @@ The First Unitarian Church of Hamilton, 170 Dundurn Street S, Hamilton, ON
 1. Please carpool where possible.
 2. Guest will be directed to Cable 14 parking lot ( 150 Dundurn St.S ) first before using the parking space at the event location 
 3. In case the Cable 14 and the event area parking are full, there is limited side street parking available on Hill Street, Poulette Street, Hunter Street and Richmond Street
+4. M﻿cMaster Innovation Park has graciously offered their parking lot as overflow for our event. Parking is free at 175 Longwood Rd S Suite 101A, Hamilton, ON L8P 0A1. Unfortunately we are not able to offer a shuttle bus from this location however the Hamilton City bus runs frequently from the stop opposite Westdale Secondary to Dundurn.
 
 There will be volunteer parking attendants with signs to help those coming by vehicles, bike or on foot. Please reach out to them. .
 
