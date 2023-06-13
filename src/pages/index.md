@@ -6,8 +6,7 @@ subheading: Hamilton Alliance for Tiny Shelters
 mainpitch:
   image: /img/donate-logo.png
   title: HATS is a practical response to the housing crisis in our community.
-  description:
-    We provide warm, safe and temporary tiny shelters - with supports -
+  description: We provide warm, safe and temporary tiny shelters - with supports -
     for those experiencing homelessness in Hamilton.
 description: >
   Giving someone a safe, warm, place they can call home is one of the first
@@ -15,11 +14,10 @@ description: >
   to empower people experiencing homelessness.
 featureBanner:
   enabled: true
-  title: Join us... HATS OPEN HOUSE - Saturday June 3, 1-3pm
-  subtitle: The First Unitarian Church of Hamilton, 170 Dundurn St S.
-  link: https://hamiltontinyshelters.ca/latest_news/2023-05-05-hats-open-house-saturday-june-3rd-1-3-pm/
-  link_title: More Info
-
+  title: "Join us...Exclusive Screening Premiere: Someone Lives Here. "
+  subtitle: Tuesday June 20, 7:00PM-9:00PM | The Playhouse Theatre
+  link: https://www.eventbrite.ca/e/hamilton-alliance-for-tiny-shelters-movie-night-fundraiser-tickets-646071997737?fbclid=IwAR18VgHB6q9HumsLoIeT-nc_UDxiyz9Id7tV9TGiyTJwIOE8NZ76ydkfYBA
+  link_title: "GET YOUR TICKETS HERE "
 intro:
   blurbs:
     - image: /img/donate-logo.png
