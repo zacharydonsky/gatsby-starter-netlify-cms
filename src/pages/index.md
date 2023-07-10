@@ -14,10 +14,11 @@ description: >
   to empower people experiencing homelessness.
 featureBanner:
   enabled: true
-  title: "Join us...Exclusive Screening Premiere: Someone Lives Here. "
-  subtitle: Tuesday June 20, 7:00PM-9:00PM | The Playhouse Theatre
-  link: https://www.eventbrite.ca/e/hamilton-alliance-for-tiny-shelters-movie-night-fundraiser-tickets-646071997737?fbclid=IwAR18VgHB6q9HumsLoIeT-nc_UDxiyz9Id7tV9TGiyTJwIOE8NZ76ydkfYBA
-  link_title: "GET YOUR TICKETS HERE "
+  title: Join Us At Our Upcoming Event
+  subtitle: Open Streets on Barton | Sunday July 16th 11 am to 4 pm | Barton
+    Street East Hamilton
+  link: https://allevents.in/hamilton/open-streets-on-barton/200024765582444
+  link_title: CLICK TO LEARN MORE ABOUT THIS EVENT
 intro:
   blurbs:
     - image: /img/donate-logo.png
