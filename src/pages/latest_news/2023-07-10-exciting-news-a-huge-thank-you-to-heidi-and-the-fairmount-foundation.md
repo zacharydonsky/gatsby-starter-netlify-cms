@@ -14,7 +14,7 @@ featuredimage: /img/1st-hats-cabin.jpg
 ---
 A group that aims to create a village of tiny cabins to help those struggling with homelessness in Hamilton has secured a $100,000 boost toward the cause.
 
-The Fairmount Foundation hopes to inspire other donors, founder Heidi Henschel says.
+**The Fairmount Foundation** hopes to inspire other donors, founder Heidi Henschel says.
 
 “I know that this is not a perfect solution, but it’s one of the solutions, and I just see it as something that is valuable,” Henschel, who grew up in Hamilton but lives in Kitchener, told The Spectator.
 
