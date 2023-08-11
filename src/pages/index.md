@@ -15,9 +15,8 @@ description: >
 featureBanner:
   enabled: true
   title: Join Us At Our Upcoming Event
-  subtitle: Open Streets on Barton | Sunday July 16th 11 am to 4 pm | Barton
-    Street East Hamilton
-  link: https://allevents.in/hamilton/open-streets-on-barton/200024765582444
+  subtitle: Dundas Cactus Festival Parade | Thursday August 17th
+  link: https://www.dundascactusparade.com/
   link_title: CLICK TO LEARN MORE ABOUT THIS EVENT
 intro:
   blurbs:
