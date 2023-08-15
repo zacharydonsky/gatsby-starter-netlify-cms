@@ -26,7 +26,7 @@ team_bios:
   title: ""
   bios:
     - name: "Julia Kollek "
-      position: President, HATS
+      position: Former President, HATS
       text: "Academic Editor: Community Activist, and Organizer:  founder, Kehila
         Heschel School."
       image: /img/logo.svg
@@ -41,7 +41,7 @@ team_bios:
       text: "Retired elementary school teacher of 35 years: Chair of Flamborough food
         bank."
     - name: Dan Bednis
-      position: Chair HATS Governance Committee
+      position: Board Chair & Acting President, HATS
       text: "Electronics technologist: 24 years in senior management at BELL: 15 years
         in Management Consulting: 11 years in Real Estate: Member of Carlisle
         Optimist Club for youth initiatives."
