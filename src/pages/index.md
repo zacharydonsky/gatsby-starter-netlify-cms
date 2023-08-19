@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: HATS
-image: /img/row-of-tiny-houses.jpeg
+image: /img/hats_village-centre1.jpg
 subheading: Hamilton Alliance for Tiny Shelters
 mainpitch:
   image: /img/donate-logo.png
