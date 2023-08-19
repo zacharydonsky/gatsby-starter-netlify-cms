@@ -13,7 +13,7 @@ description: >
   stages in healing the whole person.  Hamilton Alliance for Tiny Shelters seeks
   to empower people experiencing homelessness.
 featureBanner:
-  enabled: true
+  enabled: false
   title: Join Us At Our Upcoming Event
   subtitle: Dundas Cactus Festival Parade | Thursday August 17th
   link: https://www.dundascactusparade.com/
