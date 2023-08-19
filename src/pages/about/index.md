@@ -25,31 +25,33 @@ about_us:
 team_bios:
   title: ""
   bios:
-    - name: "Julia Kollek "
-      position: Former President, HATS
-      text: "Academic Editor: Community Activist, and Organizer:  founder, Kehila
-        Heschel School."
+    - name: Dan Bednis
+      position: Board Chair, Board of Directors, HATS
+      text: "Electronics technologist: 24 years in senior management at BELL: 15 years
+        in Management Consulting: 11 years in Real Estate: Member of Carlisle
+        Optimist Club for youth initiatives."
       image: /img/logo.svg
     - name: Tom Cooper
-      position: Treasurer, HATS
+      position: Vice Chair, Board of Directors, HATS
       text: "Director, Hamilton Roundtable for Poverty Reduction: former columnist,
         Hamilton Spectator."
       image: /img/logo.svg
+    - name: Raquel Rakovac
+      position: Communications Officer, Board of Directors
+      text: ""
+    - name: Jen Bonner
+      position: The Hub
+      text: The Hub empowers those experiencing homelessness, poverty, and addictions
+        to attain their fullest potential in a safe and respectful environment.
     - name: Bev Bednis, BA and M.Ed
       position: HATS Volunteer Co-ordinator
       image: /img/logo.svg
       text: "Retired elementary school teacher of 35 years: Chair of Flamborough food
         bank."
-    - name: Dan Bednis
-      position: Board Chair & Acting President, HATS
-      text: "Electronics technologist: 24 years in senior management at BELL: 15 years
-        in Management Consulting: 11 years in Real Estate: Member of Carlisle
-        Optimist Club for youth initiatives."
-      image: /img/logo.svg
     - name: Stephanie Cox
       position: Lawyer
       image: /img/logo.svg
-      text: Hamilton Community Legal Clinic
+      text: ""
     - name: "Tony D'Amato Stortz "
       position: Consultant to HATS
       text: "Site Superintendent at KW’s Better Tent City: founder of BetterStreet,
@@ -75,29 +77,22 @@ team_bios:
       text: Past Chair of the Ontario Bar Association’s Constitutional, Civil
         Liberties and Human Rights Section and sits on the executive of the
         Canadian Bar Association’s Constitutional and Human Rights Section.
-    - name: "Art Samson "
-      position: former school Principal, teacher and football coach
-      image: /img/logo.svg
-      text: "Catholic school board trustee, Town of Dundas Councillor, Hamilton City
-        Councillor: supporter of Routes Youth Centre and the Dundas Junior
-        Hockey Club."
     - name: "Don Seymour "
       position: Executive Director
       image: /img/logo.svg
-      text: Wesley Urban Ministries
+      text: Former Executive Director of Wesley Urban Ministries.
     - name: Ted Van Egdom
       position: Chair HATS Fundraising Committee
       image: /img/logo.svg
       text: "Senior Vice President Operations, EcoSynthetix Inc: Member, Capital
         Campaign Board, Youth Unlimited GTA."
-    - name: Sheryl Green
+    - name: Audrey Davis
       position: Hamilton Regional Indian Centre (HRIC).
       image: /img/logo.svg
-      text: >-
-        Sheryl, Oneida from Six Nations, Bear Clan is the Program Manager for
-        the Housing & Homelessness Supports and Services Department at the
-        Hamilton Regional Indian Centre (HRIC). 
-
-
-        Sheryl works to create equitable opportunities for Indigenous Peoples of our community who are precariously housed, unsheltered, or at risk of homelessness.
+      text: ""
+    - name: "Julia Kollek "
+      position: Former President, HATS
+      text: "Academic Editor: Community Activist, and Organizer:  founder, Kehila
+        Heschel School."
+      image: /img/logo.svg
 ---
