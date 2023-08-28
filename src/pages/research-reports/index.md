@@ -2,7 +2,7 @@
 templateKey: research-reports
 path: /research-reports
 title: Research & Reports
-image: /img/row-of-tiny-houses.jpeg
+image: /img/hats_village-centre1.jpg
 researchReports:
   - thumbnail: /img/survey-betterstreet-thumb.png
     title: Persons With Lived Experience Report
@@ -25,15 +25,15 @@ researchReports:
   - thumbnail: /img/hats-cover1.png
     title: Volunteer & Donor Update
     author: HATS
-    summary: "An update to volunteers and donors from the HATS Leadership Team
-      December 2022. "
+    summary: 'An update to volunteers and donors from the HATS Leadership Team
+      December 2022. '
     file: /static/research-reports/hats-dec-19th-update-2022.pdf
   - thumbnail: /img/letter.png
     title: Letter To Your City Councillor
     author: HATS
-    summary: "A letter to your city councillor. "
+    summary: 'A letter to your city councillor. '
     file: /static/research-reports/letter-to-city-councillor.docx
-  - title: "HATS Research Report "
+  - title: 'HATS Research Report '
     author: Prepared by Bill Johnston for HATS
     summary: July 3, 2022, updated November 27, 2022 Prepared by Bill Johnston for HATS
     thumbnail: /img/bill-cabin.png
