@@ -29,8 +29,8 @@ const FeatureCard = class extends React.Component {
         ? 'is-active'
         : ''),
     });
-    console.log('Modal status: ', this.state.is_active);
-    console.log('Modal status attribute:', this.state.is_active_attribute);
+    // console.log('Modal status: ', this.state.is_active);
+    // console.log('Modal status attribute:', this.state.is_active_attribute);
   }
   render() {
     return (

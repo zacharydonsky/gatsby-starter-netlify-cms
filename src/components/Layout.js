@@ -1,10 +1,14 @@
 import * as React from 'react';
+import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
+import { graphql } from 'gatsby';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import './all.sass';
 import useSiteMetadata from './SiteMetadata';
 import { withPrefix } from 'gatsby';
+import { getImage } from 'gatsby-plugin-image';
+import FullWidthImage from './FullWidthImage';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import logo from '../../static/img/logo.svg';
 
-import { StaticImage } from 'gatsby-plugin-image';
+import { GatsbyImage, StaticImage, getImage } from 'gatsby-plugin-image';
 
 // Image.propTypes = {
 //   src: PropTypes.string.isRequired,
@@ -17,7 +17,7 @@ export default function FullWidthImage(props) {
     title,
     subheading,
     imgPosition = 'bottom middle',
-    photo_credit = 'Photo courtesy of Low Income Housing Institute in Seattle (LIHI)',
+    photo_credit,
   } = props;
 
   return (
@@ -29,22 +29,20 @@ export default function FullWidthImage(props) {
           alignItems: 'center',
         }}
       >
-        <StaticImage
-          src="../../static/img/row-of-tiny-houses.jpeg"
-          alt="hero-image"
-          objectFit={'cover'}
-          objectPosition={imgPosition}
+        <GatsbyImage
+          image={props.img}
+          alt="hero image"
           style={{
             gridArea: '1/1',
             // You can set a maximum height for the image, if you wish.
             maxHeight: height,
           }}
+          objectPosition={imgPosition}
           layout="fullWidth"
           // You can optionally force an aspect ratio for the generated image
           aspectratio={3 / 1}
-          // This is a presentational image, so the alt should be an empty string
-          formats={['auto', 'webp', 'avif']}
         />
+
         {(title || subheading) && (
           <div
             style={{
