@@ -14,7 +14,7 @@ public_folder: /img
 
 collections:
   - name: 'latest_news'
-    label: 'latest_news'
+    label: 'Latest News'
     folder: 'src/pages/latest_news'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -202,3 +202,15 @@ collections:
                   },
                 ],
             }
+      - file: 'src/pages/latest_news/latest-news.md'
+        label: 'Latest News Index Page'
+        name: 'latest-news'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'latest-news',
+            }
+          - { label: Title, name: title, default: 'Latest News', widget: string }
+          - { label: Banner Image, name: image, widget: image }
