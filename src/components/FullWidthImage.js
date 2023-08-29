@@ -78,7 +78,7 @@ export default function FullWidthImage(props) {
             <div className="columns is-mobile">
               <div className="column"></div>
               <div
-                className="box full-width-image-box column is-two-thirds"
+                className="box full-width-image-box column is-two-thirds "
                 style={{
                   padding: '5%',
                   borderRadius: '25px',
