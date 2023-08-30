@@ -4,3 +4,9 @@
 //
 // instead go to pages/latest_news/index.js
 //
+import React from 'react';
+const LatestNewsTemplatePage = ({}) => {
+  return <div></div>;
+};
+
+export default LatestNewsTemplatePage;
