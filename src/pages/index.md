@@ -6,9 +6,8 @@ subheading: Hamilton Alliance for Tiny Shelters
 mainpitch:
   image: /img/donate-logo.png
   title: HATS is a practical response to the housing crisis in our community.
-  description:
-    We provide warm, safe and temporary tiny shelters - with supports -
-    for those experiencing homelessness in Hamilton.
+  description: We provide warm, safe and temporary tiny homes - with wrap-around
+    supports - for those experiencing homelessness in Hamilton.
 description: >
   Giving someone a safe, warm, place they can call home is one of the first
   stages in healing the whole person.  Hamilton Alliance for Tiny Shelters seeks
