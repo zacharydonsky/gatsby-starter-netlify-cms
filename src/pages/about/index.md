@@ -11,41 +11,10 @@ about_us:
     committed to stabilizing our village members and the neighbourhood.
 
 
-    We provide safe, temporary, supportive housing with heating and air conditioning for our village members' comfort. Additionally, we offer essential medical care, engaging recreational programs, and assistance for village members transitioning to permanent housing.
+    We provide safe, temporary, supportive housing with heating and air conditioning for our village members' comfort. Additionally, HATS is developing partnerships with health-care providers and social service agencies to provide on-site support to village residents including recreational programming to help them prepare for the transition to permanent housing opportunities.
 
 
     We strive to meet the neighbourhood's needs by providing an aesthetically appealing well-maintained village of tiny homes, community gardens, and a secure environment with 24/7 security.
-
-
-    ***A Transforming Approach*** 
-
-
-    ***CURRENT ENVIRONMENT***
-
-
-    * UNSTAFFED
-
-    * UNMAINTAINED
-
-    * UNMANAGED
-
-    * NO SECURITY
-
-    * LIMITED SOCIAL SUPPORT SERVICES
-
-
-    ***TINY HOMES VILLAGE ENVIRONMENT***
-
-
-    * STAFFED
-
-    * MAINTAINED
-
-    * MANAGED
-
-    * SECURITY
-
-    * EXTENSIVE SOCIAL SUPPORT SERVICE
 team_bios:
   title: ""
   bios:
