@@ -13,11 +13,11 @@ description: >
   stages in healing the whole person.  Hamilton Alliance for Tiny Shelters seeks
   to empower people experiencing homelessness.
 featureBanner:
-  enabled: false
-  title: Join Us At Our Upcoming Event
-  subtitle: Dundas Cactus Festival Parade | Thursday August 17th
-  link: https://www.dundascactusparade.com/
-  link_title: CLICK TO LEARN MORE ABOUT THIS EVENT
+  enabled: true
+  title: Hamilton Alliance for Tiny Shelters (HATS) Open House
+  subtitle: Bennetto Community Centre | September 11th, from 7-9 p.m
+  link: www.hamiltontinyshelters.ca
+  link_title: We look forward to seeing you!
 intro:
   blurbs:
     - image: /img/donate-logo.png
