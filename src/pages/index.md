@@ -16,7 +16,7 @@ featureBanner:
   enabled: true
   title: Hamilton Alliance for Tiny Shelters (HATS) Open House
   subtitle: Bennetto Community Centre | September 11th, from 7-9 p.m
-  link: www.hamiltontinyshelters.ca
+  link: www.hamiltontinyshelters.ca/about
   link_title: We look forward to seeing you!
 intro:
   blurbs:
