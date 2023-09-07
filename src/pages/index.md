@@ -14,7 +14,7 @@ description: >
   to empower people experiencing homelessness.
 featureBanner:
   enabled: true
-  title: Hamilton Alliance for Tiny Shelters (HATS) Open House
+  title: North End Community Open House
   subtitle: Bennetto Community Centre | September 11th, from 7-9 p.m
   link: /about
   link_title: We look forward to seeing you!
