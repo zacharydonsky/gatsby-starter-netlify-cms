@@ -13,7 +13,7 @@ description: >
   stages in healing the whole person.  Hamilton Alliance for Tiny Shelters seeks
   to empower people experiencing homelessness.
 featureBanner:
-  enabled: true
+  enabled: false
   title: North End Community Open House
   subtitle: Bennetto Community Centre | September 11th, from 7-9 p.m
   link: /about
