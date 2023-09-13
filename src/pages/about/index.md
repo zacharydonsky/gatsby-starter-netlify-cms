@@ -20,9 +20,7 @@ team_bios:
   bios:
     - name: Dan Bednis
       position: Board Chair, Board of Directors, HATS
-      text: "Electronics technologist: 24 years in senior management at BELL: 15 years
-        in Management Consulting: 11 years in Real Estate: Member of Carlisle
-        Optimist Club for youth initiatives."
+      text: ""
       image: /img/logo.svg
     - name: Tom Cooper
       position: Vice Chair, Board of Directors, HATS
