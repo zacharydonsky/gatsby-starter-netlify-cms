@@ -24,66 +24,56 @@ team_bios:
       image: /img/logo.svg
     - name: Tom Cooper
       position: Vice Chair, Board of Directors, HATS
-      text: "Director, Hamilton Roundtable for Poverty Reduction: former columnist,
-        Hamilton Spectator."
+      text: ""
       image: /img/logo.svg
     - name: Raquel Rakovac
       position: Communications Officer, Board of Directors
       text: ""
     - name: Jen Bonner
       position: The Hub
-      text: The Hub empowers those experiencing homelessness, poverty, and addictions
-        to attain their fullest potential in a safe and respectful environment.
+      text: ""
     - name: Bev Bednis, BA and M.Ed
       position: HATS Volunteer Co-ordinator
       image: /img/logo.svg
-      text: "Retired elementary school teacher of 35 years: Chair of Flamborough food
-        bank."
+      text: ""
     - name: Stephanie Cox
       position: Lawyer
       image: /img/logo.svg
       text: ""
     - name: "Tony D'Amato Stortz "
       position: Consultant to HATS
-      text: "Site Superintendent at KW’s Better Tent City: founder of BetterStreet,
-        working with communities to improve the lives of those experiencing
-        homelessness."
+      text: ""
       image: /img/logo.svg
     - name: "Ed Fothergill "
       position: President, Fothergill Planning & Development Inc
       image: /img/logo.svg
-      text: "former President, Hamilton Chamber of Commerce: elder at Chedoke
-        Presbyterian Church."
+      text: ""
     - name: "Bill Johnston "
       position: Affordable Housing Team, First Unitarian Church of Hamilton
       image: /img/logo.svg
-      text: a former city hall reporter and an editor at the Hamilton Spectator.
+      text: ""
     - name: "Kim Martin "
       position: Executive Director
       image: /img/logo.svg
-      text: Social Planning and Research Council of Hamilton.
+      text: ""
     - name: "Wade Poziomka "
       position: Human Rights and Employment Lawyer, Ross & McBride
       image: /img/logo.svg
-      text: Past Chair of the Ontario Bar Association’s Constitutional, Civil
-        Liberties and Human Rights Section and sits on the executive of the
-        Canadian Bar Association’s Constitutional and Human Rights Section.
+      text: ""
     - name: "Don Seymour "
       position: Executive Director
       image: /img/logo.svg
-      text: Former Executive Director of Wesley Urban Ministries.
+      text: ""
     - name: Ted Van Egdom
       position: Chair HATS Fundraising Committee
       image: /img/logo.svg
-      text: "Senior Vice President Operations, EcoSynthetix Inc: Member, Capital
-        Campaign Board, Youth Unlimited GTA."
+      text: ""
     - name: Audrey Davis
       position: Hamilton Regional Indian Centre (HRIC).
       image: /img/logo.svg
       text: ""
     - name: "Julia Kollek "
       position: Former President, HATS
-      text: "Academic Editor: Community Activist, and Organizer:  founder, Kehila
-        Heschel School."
+      text: ""
       image: /img/logo.svg
 ---
