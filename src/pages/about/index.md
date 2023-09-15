@@ -53,15 +53,11 @@ team_bios:
       image: /img/logo.svg
       text: ""
     - name: "Kim Martin "
-      position: Executive Director
+      position: Executive Director, SPRC
       image: /img/logo.svg
       text: ""
     - name: "Wade Poziomka "
       position: Human Rights and Employment Lawyer, Ross & McBride
-      image: /img/logo.svg
-      text: ""
-    - name: "Don Seymour "
-      position: Executive Director
       image: /img/logo.svg
       text: ""
     - name: Ted Van Egdom
