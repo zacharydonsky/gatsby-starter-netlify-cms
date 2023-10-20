@@ -36,10 +36,6 @@ team_bios:
       position: HATS Volunteer Co-ordinator
       image: /img/logo.svg
       text: ""
-    - name: Stephanie Cox
-      position: Lawyer
-      image: /img/logo.svg
-      text: ""
     - name: "Tony D'Amato Stortz "
       position: Consultant to HATS
       text: ""
