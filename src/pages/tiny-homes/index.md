@@ -3,7 +3,7 @@ templateKey: 'tiny-homes-page'
 path: /tiny-homes
 title: Tiny Homes Program
 heading: Tiny Homes Program
-image: /img/row-of-tiny-houses.jpeg
+image: /img/hats_village-centre1.jpg
 objective: >-
   # Objective: Hamilton Alliance for Tiny Shelters (HATS)
 
