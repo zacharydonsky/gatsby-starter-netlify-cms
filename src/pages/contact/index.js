@@ -48,19 +48,22 @@ export default class Index extends React.Component {
                       For <b>General</b> and <b>Volunteer</b> Inquiries, please
                       get in touch with...
                     </div>
-
-                    <div class="button is-medium is-link">
-                      info@hamiltontinyshelters.ca
-                    </div>
+                    <a href="mailto:info@hamiltontinyshelters.ca">
+                      <div class="button is-medium is-link">
+                        info@hamiltontinyshelters.ca
+                      </div>
+                    </a>
                   </div>
                   <div className="block">
                     <div className="content">
                       For <b>Public Relations</b>, <b>Media Inquiries</b>, or{' '}
                       <b>Events</b>, please get in touch with...
                     </div>
-                    <div class="button is-medium is-link">
-                      communications@hamiltontinyshelters.ca
-                    </div>
+                    <a href="mailto:communications@hamiltontinyshelters.ca">
+                      <div class="button is-medium is-link">
+                        communications@hamiltontinyshelters.ca
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>
