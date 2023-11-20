@@ -3,6 +3,25 @@ import { navigate } from 'gatsby-link';
 import Layout from '../../components/Layout';
 import { Checkbox, CheckboxGroup } from '@chakra-ui/react';
 import IFrameModalButton from '../../components/iframe_modal_button';
+import { isMobile } from 'react-device-detect';
+
+export const CommunicationsEmail = ({}) => {
+  if (!isMobile) {
+    return (
+      <div className="button is-medium is-link">
+        communications@hamiltontinyshelters.ca
+      </div>
+    );
+  } else {
+    return (
+      <div className="button is-medium is-link is-multiline">
+        <div>communications</div>
+        <div>@hamiltontinyshelters.ca</div>
+      </div>
+    );
+  }
+};
+
 function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -60,9 +79,7 @@ export default class Index extends React.Component {
                       <b>Events</b>, please get in touch with...
                     </div>
                     <a href="mailto:communications@hamiltontinyshelters.ca">
-                      <div class="button is-medium is-link">
-                        communications@hamiltontinyshelters.ca
-                      </div>
+                      <CommunicationsEmail />
                     </a>
                   </div>
                 </div>
