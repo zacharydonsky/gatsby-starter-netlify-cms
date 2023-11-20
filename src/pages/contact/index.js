@@ -58,7 +58,7 @@ export default class Index extends React.Component {
                       For <b>Public Relations</b>, <b>Media Inquiries</b>, or{' '}
                       <b>Events</b>, please get in touch with...
                     </div>
-                    <div class="button is-medium is-light is-link">
+                    <div class="button is-medium is-link">
                       communications@hamiltontinyshelters.ca
                     </div>
                   </div>
