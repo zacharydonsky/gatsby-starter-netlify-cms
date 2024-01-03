@@ -29,7 +29,7 @@ intro:
         Social Planning and Research Council of Hamilton.
     - image: /img/volunteer-logo.png
       feature_type: link
-      link: /volunteer
+      link: /contact
       id: volunteer-button
       text: >
         There are lots of ways to help - from fundraising to handy work and
