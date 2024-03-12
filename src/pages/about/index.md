@@ -20,6 +20,6 @@ team_bios:
   bios:
     - name: ''
       position: ''
-      text: 'Sincerly, the HATS Team'
+      text: 'Sincerely, the HATS Team'
       image: /img/logo.svg
 ---
