@@ -16,6 +16,10 @@ about_us:
 
     We strive to meet the neighbourhood's needs by providing an aesthetically appealing well-maintained village of tiny homes, community gardens, and a secure environment with 24/7 security.
 team_bios:
-  title: ""
-  bios: []
+  title: ''
+  bios:
+    - name: ''
+      position: ''
+      text: 'Sincerly, the HATS Team'
+      image: /img/logo.svg
 ---
