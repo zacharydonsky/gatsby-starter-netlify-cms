@@ -9,7 +9,7 @@ about_us:
     During our search for a candidate site in various locations, it has become quite evident that all components of our comprehensive HATS Model may not be essential or applicable. In other words, a one-size-fits-all approach may not be necessary. 
 
 
-    Accordingly, we recommend moving to a **Tailored HATS Model** approach whereby we provide only the essential components for delivering a complete temporary housing solution with supports. The model represents a comprehensiveframework designed to provide a significant amount of flexibility in providing a cost-effective, temporary, supportive housing solution that optimizes servicing the needs of our village members. Understanding the unique nature of different site profiles and locations, we acknowledge that a one-size-fits-all approach can possibly be unnecessarily constraining and/or costly.
+    Accordingly, we recommend moving to a **Tailored HATS Model** approach whereby we provide only the essential components for delivering a complete temporary housing solution with supports. The model represents a comprehensive framework designed to provide a significant amount of flexibility in providing a cost-effective, temporary, supportive housing solution that optimizes servicing the needs of our village members. Understanding the unique nature of different site profiles and locations, we acknowledge that a one-size-fits-all approach can possibly be unnecessarily constraining and/or costly.
 
 
     **The Tailored HATS Model** has a multitude of components that can be included or excluded to match the requirements influenced by the profile and location of a particular site. It focuses on ensuring a sustainable temporary solution is delivered while accommodating the diverse impacts of integration into the local community. Most importantly, it ensures a holistic assessment is undertaken to identify the essential components.
@@ -36,9 +36,6 @@ about_us:
     - facilitating job opportunities,
 
     - providing access to health and educational supports.
-
-    - etc.
-
 
     Additionally, we may establish partnerships with local organizations to offer support services thus ensuring village members have ready access to the resources they need, locally.
 
