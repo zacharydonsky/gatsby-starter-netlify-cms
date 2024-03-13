@@ -33,6 +33,11 @@ export const IndexPageTemplate = ({
               <div className="column is-12 has-text-centered">
                 <div className="title">{mainpitch.title}</div>
                 <div className="subtitle">{mainpitch.description}</div>
+                <div className="section">
+                  <Link className="button is-link is-large" to="/about">
+                    The Tailored HATS Model
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

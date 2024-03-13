@@ -70,7 +70,7 @@ const Navbar = class extends React.Component {
                 Home
               </Link>
               <Link className="navbar-item" to="/about">
-                About Us
+                Tailored HATS Model
               </Link>
               <Link className="navbar-item" to="/tiny-homes">
                 Tiny Homes Program

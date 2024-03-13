@@ -31,7 +31,7 @@ const Footer = class extends React.Component {
                     </li>
                     <li>
                       <Link className="navbar-item" to="/about">
-                        About
+                        Tailored HATS Model
                       </Link>
                     </li>
                     <li>
