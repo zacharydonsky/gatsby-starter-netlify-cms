@@ -172,6 +172,22 @@ collections:
                   },
                 ],
             }
+
+      - file: 'src/pages/faq/index.md'
+        label: 'FAQ'
+        name: 'FAQ'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'faq-page',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
+          - { label: Description, name: description, widget: markdown }
+
+
       - file: 'src/pages/research-reports/index.md'
         label: 'Research & Reports'
         name: 'research-reports'
